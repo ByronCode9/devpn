@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+body{
+    font-family: Manrope, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.icon {
+    filter: invert(7%) sepia(6%) saturate(17%) hue-rotate(329deg) brightness(97%) contrast(95%);
+}
+.footer-icon:hover{
+    transition: ease-in 0.2s;
+    filter: invert(50%) sepia(0%) saturate(17%) hue-rotate(329deg) brightness(105%) contrast(101%);
+}
