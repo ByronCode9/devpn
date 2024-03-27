@@ -45,7 +45,7 @@ const Footer = () => {
         <aside className="items-center grid-flow-col z-20">
           
           <p className="text-[#797E86] ">
-          © 2023 DEVPN. All rights reserved.
+          © 2024 DEVPN. All rights reserved.
           </p>
         </aside>
         <nav className=" md:place-self-center md:justify-self-end">

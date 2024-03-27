@@ -20,7 +20,7 @@ const TotalSupply = () => {
           <h2 className="text-black text-2xl py-2 font-bold">$DEVPN</h2>
         </div>
         <div className="supply hover:bg-white hover:card hover:shadow px-3 py-2 duration-300 ease-in-out hover:border-black/5 rounded-xl">
-          <span>Name</span>
+          <span>Supply</span>
           <h2 className="text-black text-2xl py-2 font-bold">100,000,000</h2>
         </div>
         <div className="tax hover:bg-white hover:card hover:shadow px-3 py-2 duration-300 ease-in-out hover:border-black/5 rounded-xl">
