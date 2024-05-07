@@ -26,12 +26,12 @@ const AvailableServers = () => {
         <Fade cascade>
         <div className="mt-8 flex flex-col items-center lg:flex lg:flex-col lg:justify-center md:flex md:justify-center lg:items-start z-10 lg:w-10/12 text-center lg:text-left space-y-6 lg:space-y-7 px-6 lg:px-0">
           <h2 className="text-3xl lg:text-5xl leading-tight text-[#181818]">
-            Time to Discover AI-enhanced Privacy
+            Discover True Decentralized Privacy
           </h2>
           <p className="text-[#797E86] py-5">
-          At <span className="font-bold text-black">DEVPN</span>, we recognize the urgency of the digital security challenge, and we're proud to offer a comprehensive solution that prioritizes your online privacy and safety.
+          <span className="font-bold text-black">DEVPN</span> introduces a new quality standard for VPN excellence, offering top-tier security, privacy, and performance to users worldwide while embracing a new decentralized era.
           <br/>
-          <br/> We have combined cutting-edge AI technology with a fully decentralized infrastructure to offer unparalleled protection for individuals and businesses alike. 
+          <br/> The privacy Achilles heel of traditional VPNs has finally been solved by combining fully decentralized hardware with stakeholder-driven ownership: complete user privacy protection without compromise.
           </p>
           {/* Download Apps Button */}
           <button className="flex  w-[230px] btn bg-[#181818] rounded-md text-sm font-extrabold px-8 py-3 text-white border-[#55585E] hover:opacity-75">

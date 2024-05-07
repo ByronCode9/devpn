@@ -10,15 +10,13 @@ const GetPivien = () => {
     <div className="flex flex-col w-full md:flex-row lg:flex-row items-center py-10 lg:py-10 justify-between">
       <div className="text-center w-full md:w-1/2 z-10 md:text-left lg:text-left space-y-5">
         <h2 className="text-[#6874E8]  text-xl md:leading-snug tracking-tighter  font-black lg:leading-snug ">
-          Discover AI-powered privacy control.
+        Discover Decentralized VPN Privacy Control.
         </h2>
         <h2 className="text-[#181818] text-4xl md:text-3xl lg:text-5xl md:leading-snug tracking-tighter  font-black lg:leading-snug">
-          Stay <span className="gradient-text">Private</span> and <br></br>
-           Access Worldwide Content
+        The New Standard in VPN Safety and Privacy.
         </h2>
         <p className="text-[#797E86] py-4">
-          Surf the web without tracking with a VPN, protect your devices &
-          identity with an all-in-one app.
+        Surf the web without leaving a trace, protected and certified anonymous, without relying on a central organization as your Achilles heel.
         </p>
         <div className="flex md:justify-content-lg-start justify-content-lg-center gap-2 mb-4 h-10 justify-center md:justify-start lg:h-14">
           <img data-tooltip-target="tooltip-default2" className="hover:opacity-75 transition-all me-0" src={apple} alt="apple-store" />

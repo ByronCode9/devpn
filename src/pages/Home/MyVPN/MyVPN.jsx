@@ -18,29 +18,6 @@ const MyVPN = () => {
         <div className="flex flex-col card shadow border border-black/5 lg:w-auto p-4 rounded-lg bg-[#fff] z-50">
           <img
             className="w-[45px] h-[45px]"
-            src={icon1}
-            alt="MyVPN"
-          />
-          <h1 className="text-[#181818] tracking-tight text-l z-50 py-2 font-semibold">AI-Powered Encryption</h1>
-          <p className="text-[#181818] mt-1 text-sm font-light">
-            Our AI-powered encryption employs advanced protocols to secure your online activities, adapting dynamically to evolving threats for proactive cyber protection.
-          </p>
-        </div>
-        <div className="flex flex-col card shadow border border-black/5 lg:w-auto p-4 rounded-lg bg-[#fff] z-50">
-          <img
-            className="w-[45px] h-[45px]"
-            src={icon2}
-            alt="MyVPN"
-          />
-          <h1 className="text-[#181818] tracking-tight text-l py-2 font-semibold">Lightning-fast Speed and Performance</h1>
-          <p className="text-[#181818] mt-1 text-sm font-light">
-          Despite our advanced encryption technology, DEVPN delivers lightning-fast speed and performance, thanks to our decentralized network of servers.
-          </p>
-        </div>
-
-        <div className="flex flex-col card shadow border border-black/5 lg:w-auto p-4 rounded-lg bg-[#fff] z-50">
-          <img
-            className="w-[45px] h-[45px]"
             src={icon3}
             alt="MyVPN"
           />
@@ -53,48 +30,36 @@ const MyVPN = () => {
         <div className="flex flex-col card shadow border border-black/5 lg:w-auto p-4 rounded-lg bg-[#fff] z-50">
           <img
             className="w-[45px] h-[45px]"
+            src={icon2}
+            alt="MyVPN"
+          />
+          <h1 className="text-[#181818] tracking-tight text-l py-2 font-semibold">Lightning-fast Speed and Performance</h1>
+          <p className="text-[#181818] mt-1 text-sm font-light">
+            DEVPN ensures top-tier speed and performance by leveraging its decentralized infrastructure and incorporating AI for dynamic pattern analysis.
+          </p>
+        </div>
+
+        <div className="flex flex-col card shadow border border-black/5 lg:w-auto p-4 rounded-lg bg-[#fff] z-50">
+          <img
+            className="w-[45px] h-[45px]"
+            src={icon1}
+            alt="MyVPN"
+          />
+          <h1 className="text-[#181818] tracking-tight text-l z-50 py-2 font-semibold">True Log Flushing</h1>
+          <p className="text-[#181818] mt-1 text-sm font-light">
+            Unlike other VPN providers that falsely claim a No-Log Policy, DEVPN uses AI-powered Log Flushing to ensure anonymity.
+          </p>
+        </div>
+
+        <div className="flex flex-col card shadow border border-black/5 lg:w-auto p-4 rounded-lg bg-[#fff] z-50">
+          <img
+            className="w-[45px] h-[45px]"
             src={icon4}
             alt="MyVPN"
           />
           <h1 className="text-[#181818] tracking-tight text-l py-2 font-semibold">Comprehensive Privacy Protection</h1>
           <p className="text-[#181818] mt-1 text-sm font-light">
-          Our bespoke AI-driven encryption serves to adhere to a strict no-logs policy, ensuring that your browsing history and personal information remain confidential at all times.
-          </p>
-        </div>
-
-        <div className="flex flex-col card shadow border border-black/5 lg:w-auto p-4 rounded-lg bg-[#fff] z-50">
-          <img
-            className="w-[45px] h-[45px]"
-            src={icon5}
-            alt="MyVPN"
-          />
-          <h1 className="text-[#181818] tracking-tight text-l py-2 font-semibold">Dynamic Routing</h1>
-          <p className="text-[#181818] mt-1 text-sm font-light">
-          AI-driven dynamic routing optimizes VPN connections by automatically selecting the most secure and efficient pathways based on network conditions, traffic load, and latency.
-          </p>
-        </div>
-
-        <div className="flex flex-col card shadow border border-black/5 lg:w-auto p-4 rounded-lg bg-[#fff] z-50">
-          <img
-            className="w-[45px] h-[45px]"
-            src={icon6}
-            alt="MyVPN"
-          />
-          <h1 className="text-[#181818] tracking-tight text-l py-2 font-semibold">Self-Healing Network</h1>
-          <p className="text-[#181818] mt-1 text-sm font-light">
-          In the event of server failures or network disruptions, AI algorithms dynamically reroute traffic to alternative nodes, ensuring uninterrupted service.
-          </p>
-        </div>
-
-        <div className="flex flex-col card shadow border border-black/5 lg:w-auto p-4 rounded-lg bg-[#fff] z-50">
-          <img
-            className="w-[45px] h-[45px]"
-            src={icon7}
-            alt="MyVPN"
-          />
-          <h1 className="text-[#181818] tracking-tight text-l py-2 font-semibold">Dynamic Protocol Optimization</h1>
-          <p className="text-[#181818] mt-1 text-sm font-light">
-           DEVPN utilizes AI algorithms to dynamically optimize VPN protocols based on network conditions and user preferences allowing to browse the web seamlessly.
+          DEVPN combines the benefits of decentralized hardware, AI assistance, military-grade security, and advanced features into a simple and guaranteed secure user experience.
           </p>
         </div>
 
@@ -106,7 +71,43 @@ const MyVPN = () => {
           />
           <h1 className="text-[#181818] tracking-tight text-l py-2 font-semibold">Cross-Platform Compatibility</h1>
           <p className="text-[#181818] mt-1 text-sm font-light">
-            Our software is compatible with a wide range of devices - whether on desktop, mobile, or IoT devices, users can enjoy seamless connectivity and privacy protection with DEVPN.
+            DEVPN is aimed at billions of potential VPN users and natively supports a wide range of devices, including Windows and Mac computers as well as iOS and Android phones.
+          </p>
+        </div>
+
+        <div className="flex flex-col card shadow border border-black/5 lg:w-auto p-4 rounded-lg bg-[#fff] z-50">
+          <img
+            className="w-[45px] h-[45px]"
+            src={icon5}
+            alt="MyVPN"
+          />
+          <h1 className="text-[#181818] tracking-tight text-l py-2 font-semibold">Friends and Family Program</h1>
+          <p className="text-[#181818] mt-1 text-sm font-light">
+          o celebrate our community and its users, DEVPN provides a friends and family referral program in which both parties can receive an additional 30 days of service for free.
+          </p>
+        </div>
+
+        <div className="flex flex-col card shadow border border-black/5 lg:w-auto p-4 rounded-lg bg-[#fff] z-50">
+          <img
+            className="w-[45px] h-[45px]"
+            src={icon6}
+            alt="MyVPN"
+          />
+          <h1 className="text-[#181818] tracking-tight text-l py-2 font-semibold">Decentralised Rewards</h1>
+          <p className="text-[#181818] mt-1 text-sm font-light">
+          DEVPN offers a unique revenue-sharing and reward mechanism that provides passive financial incentives to encourage growth, benefiting and rewarding both users and investors.
+          </p>
+        </div>
+
+        <div className="flex flex-col card shadow border border-black/5 lg:w-auto p-4 rounded-lg bg-[#fff] z-50">
+          <img
+            className="w-[45px] h-[45px]"
+            src={icon7}
+            alt="MyVPN"
+          />
+          <h1 className="text-[#181818] tracking-tight text-l py-2 font-semibold">DEVPN On The Go</h1>
+          <p className="text-[#181818] mt-1 text-sm font-light">
+          Our first innovative consumer hardware device with the goal of providing the ultimate market-leading solution to the anticipated market demand for mobile VPN devices.
           </p>
         </div>
         </Fade>
