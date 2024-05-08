@@ -16,7 +16,7 @@ const GetPivien = () => {
         The New Standard in VPN Safety and Privacy.
         </h2>
         <p className="text-[#797E86] py-4">
-        Surf the web without leaving a trace, protected and certified anonymous, without relying on a central organization as your Achilles heel.
+        High-quality VPN without relying on a central corporation as your Achilles heel: Surf the web without leaving any trace, always safe and completely anonymous.
         </p>
         <div className="flex md:justify-content-lg-start justify-content-lg-center gap-2 mb-4 h-10 justify-center md:justify-start lg:h-14">
           <img data-tooltip-target="tooltip-default2" className="hover:opacity-75 transition-all me-0" src={apple} alt="apple-store" />
