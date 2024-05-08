@@ -34,6 +34,7 @@ const Footer = () => {
             <h6 className="footer-title text-white">Information</h6>
             <a href="doc" className="transition ease-in-out  hover:text-[#cececece] text-[#797E86]">Documentation</a>
             <a href="doc" className="transition ease-in-out  hover:text-[#cececece] text-[#797E86]">Whitepaper</a>
+            <a href="doc" className="transition ease-in-out  hover:text-[#cececece] text-[#797E86]">Disclaimer</a>
           </nav>
         </div>
 

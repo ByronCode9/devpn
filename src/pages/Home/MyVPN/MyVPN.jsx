@@ -13,8 +13,9 @@ const MyVPN = () => {
     
      <div className="flex flex-col justify-between w-full z-50">
      
-      <div className="grid lg:grid-cols-4 xl:grid-cols-4 lg:grid-rows-2 gap-4 md:grid-cols-2 sm:grid-cols-2 grid-cols-1">
+      
       <Fade>
+      <div className="grid lg:grid-cols-4 xl:grid-cols-4 lg:grid-rows-2 gap-4 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 grid-rows-auto">
         <div className="flex flex-col card shadow border border-black/5 lg:w-auto p-4 rounded-lg bg-[#fff] z-50">
           <img
             className="w-[45px] h-[45px]"
@@ -39,7 +40,7 @@ const MyVPN = () => {
           </p>
         </div>
 
-        <div className="flex flex-col card shadow border border-black/5 lg:w-auto p-4 rounded-lg bg-[#fff] z-50">
+        <div className="flex flex-col card shadow border border-black/5 lg:w-auto h-auto p-4 rounded-lg bg-[#fff] z-50">
           <img
             className="w-[45px] h-[45px]"
             src={icon1}
@@ -47,7 +48,7 @@ const MyVPN = () => {
           />
           <h1 className="text-[#181818] tracking-tight text-l z-50 py-2 font-semibold">True Log Flushing</h1>
           <p className="text-[#181818] mt-1 text-sm font-light">
-            Unlike other VPN providers that falsely claim a No-Log Policy, DEVPN uses AI-powered Log Flushing to ensure anonymity.
+            Unlike other VPN providers who falsely claim to have a No-Log Policy, DEVPN guarantees complete anonymity with its AI-powered Log Flushing technology.
           </p>
         </div>
 
@@ -59,7 +60,7 @@ const MyVPN = () => {
           />
           <h1 className="text-[#181818] tracking-tight text-l py-2 font-semibold">Comprehensive Privacy Protection</h1>
           <p className="text-[#181818] mt-1 text-sm font-light">
-          DEVPN combines the benefits of decentralized hardware, AI assistance, military-grade security, and advanced features into a simple and guaranteed secure user experience.
+          DEVPN combines the benefits of decentralized hardware, AI assistance, military-grade security, and advanced service features into a simple and guaranteed secure user experience.
           </p>
         </div>
 
@@ -83,7 +84,7 @@ const MyVPN = () => {
           />
           <h1 className="text-[#181818] tracking-tight text-l py-2 font-semibold">Friends and Family Program</h1>
           <p className="text-[#181818] mt-1 text-sm font-light">
-          o celebrate our community and its users, DEVPN provides a friends and family referral program in which both parties can receive an additional 30 days of service for free.
+           To celebrate our community and its users, DEVPN provides a friends and family referral program in which both parties can receive an additional 30 days of service for free.
           </p>
         </div>
 
@@ -110,8 +111,9 @@ const MyVPN = () => {
           Our first innovative consumer hardware device with the goal of providing the ultimate market-leading solution to the anticipated market demand for mobile VPN devices.
           </p>
         </div>
+        </div>
         </Fade>
-      </div>
+      
       
     </div>
     

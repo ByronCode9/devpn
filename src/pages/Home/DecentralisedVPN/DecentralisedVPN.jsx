@@ -21,10 +21,10 @@ const DecentralisedVPN = () => {
             <div className="grid md:grid-cols-2 border-black/5 shadow lg:grid-cols-3 bg-[#fff] rounded-xl p-5 border">
               <div className="text-center lg:flex lg:flex-col lg:text-start lg:justify-center md:col-span-1 lg:col-span-2">
                 <h1 className="text-xl  lg:text-2xl font-semibold text-[#181818] mb-6">
-                  Fully Decentralised Infrastructure
+                  Fully Decentralized Infrastructure
                 </h1>
                 <p className="text-[#181818] text-[14px]  md:w-full lg:w-full font-normal">
-                Our decentralized network guarantees reliability and resilience against censorship, providing uninterrupted access to the internet. 
+                Our decentralized network guarantees reliability and resilience against censorship, providing uninterrupted access to the internet.
                 With no single point of failure, you can trust our platform to maintain your privacy and freedom online, regardless of external pressures.
                 </p>
               </div>
@@ -44,7 +44,7 @@ const DecentralisedVPN = () => {
                 </h1>
                 <p className="text-[#181818] text-[14px]  md:w-full lg:w-full font-normal">
                 Experience seamless access to our decentralized VPN services without the need for traditional account creation. 
-                With our secure Metamask integration, users can log in and utilize our platform effortlessly using their Ethereum wallet. 
+                With our secure Metamask integration, users can log in and utilize our platform effortlessly using their Ethereum wallet.
                 This innovative approach not only streamlines the user experience but also enhances security by leveraging blockchain technology for authentication. 
                 </p>
               </div>
@@ -60,12 +60,11 @@ const DecentralisedVPN = () => {
             <div className="grid md:grid-cols-2 border-black/5 shadow lg:grid-cols-3 bg-[#fff] rounded-xl p-5 border">
               <div className="text-center lg:flex lg:flex-col lg:text-start lg:justify-center md:col-span-1 lg:col-span-2">
                 <h1 className="text-xl  lg:text-2xl font-semibold text-[#181818] mb-6">
-                  End-to-End Encryption
+                  Your Privacy Our Priority
                 </h1>
                 <p className="text-[#181818] text-[14px]  md:w-full lg:w-full font-normal">
-                Experience ultimate privacy with our end-to-end encryption feature. Your data is shielded from prying eyes throughout its journey, 
-                ensuring that only you and your intended recipient can access it.
-                With end-to-end encryption, your communication remains secure and confidential, giving you peace of mind in the digital world.
+                DEVPN prioritizes user privacy at all levels, from protocols to hardware infrastructure, and exceeds industry standards by combining advanced features with a decentralized architecture. 
+                We give our users complete confidence that their online activities are secure and private, and we strongly encourage them to compare!
                 </p>
               </div>
               <div className="flex z-10 justify-center items-center mt-5">
@@ -99,11 +98,11 @@ const DecentralisedVPN = () => {
             <div className="grid md:grid-cols-2 border-black/5 shadow lg:grid-cols-3 bg-[#fff] rounded-xl p-5 border">
               <div className="text-center lg:flex lg:flex-col lg:text-start lg:justify-center md:col-span-1 lg:col-span-2">
                 <h1 className="text-xl  lg:text-2xl font-semibold text-[#181818] mb-6">
-                  No-Logs Policy
+                No-Logs Policy Reinvented
                 </h1>
                 <p className="text-[#181818] text-[14px]  md:w-full lg:w-full font-normal">
-                We uphold a strict no-logs policy, safeguarding your privacy by refraining from monitoring or storing your online activities. 
-                This commitment ensures that your browsing history, connection timestamps, and IP addresses remain confidential, allowing you to explore the web without fear of surveillance or data breaches.
+                While many VPN providers advertise a 'No Log Policy' as a selling point, it is crucial for consumers to understand the reality behind this common marketing claim. 
+                Unlike other VPN providers, we do NOT collect sensitive information such as user locations, browsing history, downloaded files, or services used!
                 </p>
               </div>
               <div className="flex z-10 justify-center items-center mt-5">
@@ -121,8 +120,8 @@ const DecentralisedVPN = () => {
                   Anonymous Browsing
                 </h1>
                 <p className="text-[#181818] text-[14px]  md:w-full lg:w-full font-normal">
-                Enjoy anonymity online as our VPN masks your IP address and encrypts your internet traffic, shielding you from targeted ads and location-based tracking. 
-                With anonymous browsing, you can reclaim your privacy and explore the internet without leaving a digital footprint behind.
+                Take advantage of anonymity regardless of who you are or where you are online. 
+                DEVPN was founded on the firm belief that the internet is humanity's most significant advancement in decades, and that a decentralized VPN will keep it that way: safe, secure, and free of political interference.
                 </p>
               </div>
               <div className="flex z-10 justify-center items-center mt-5">

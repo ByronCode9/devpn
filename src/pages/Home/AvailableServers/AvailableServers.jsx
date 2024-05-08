@@ -29,7 +29,7 @@ const AvailableServers = () => {
             Discover True Decentralized Privacy
           </h2>
           <p className="text-[#797E86] py-5">
-          <span className="font-bold text-black">DEVPN</span> introduces a new quality standard for VPN excellence, offering top-tier security, privacy, and performance to users worldwide while embracing a new decentralized era.
+          <span className="font-bold text-black">DEVPN</span> introduces a new quality standard for VPN excellence: Welcome to a new era of decentralization in which users get the top-tier security, complete privacy, and high-speed VPN they deserve.
           <br/>
           <br/> The privacy Achilles heel of traditional VPNs has finally been solved by combining fully decentralized hardware with stakeholder-driven ownership: complete user privacy protection without compromise.
           </p>

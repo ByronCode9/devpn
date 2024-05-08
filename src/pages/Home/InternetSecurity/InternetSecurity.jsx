@@ -14,8 +14,7 @@ const InternetSecurity = () => {
           Shield Your Digital Footprint
         </h2>
         <p className="text-[#797E86]">
-
-        Take charge of your online journey and break free from the shackles of digital dangers and prying eyes. With DEVPN by your side, explore the vast realm of the internet with unwavering assurance. Feel empowered knowing that your digital well-being is fortified, shielded from any lurking threats or invasive snooping
+        VPN providers, like locks, can differ greatly in quality, ranging from heavy-duty deadbolts that provide excellent security to flimsy little padlocks that provide little to no protection. While VPNs can offer strong encryption, fast connections, and a consistent service, the vast majority are slow, inaccurate, and unsafe. <br /><br />With DEVPN you can expect:
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 lg:gap-2">
@@ -23,25 +22,25 @@ const InternetSecurity = () => {
               <p className="text-lg text-[#181818]">
                 <IoCheckmarkCircleSharp />
               </p>{" "}
-              <p className="text-[#878787] font-light">Military-grade encryption for maximum data security.</p>
+              <p className="text-[#878787] font-light">Unrivaled superior levels of user anonymity</p>
             </div>
             <div className="flex gap-2">
               <p className="text-lg text-[#181818]">
                 <IoCheckmarkCircleSharp />
               </p>{" "}
-              <p className="text-[#878787] font-light">No-logs policy to protect your privacy.</p>
+              <p className="text-[#878787] font-light">Future-proof and fully scalable ecosystem</p>
             </div>
             <div className="flex gap-2">
               <p className="text-lg text-[#181818]">
                 <IoCheckmarkCircleSharp />
               </p>{" "}
-              <p className="text-[#878787] font-light">Multi-platform support for seamless integration across devices.</p>
+              <p className="text-[#878787] font-light">100% decentralized hardware ownership</p>
             </div>
             <div className="flex gap-2">
               <p className="text-lg text-[#181818]">
                 <IoCheckmarkCircleSharp />
               </p>{" "}
-              <p className="text-[#878787] font-light">Dedicated customer support team available 24/7.</p>
+              <p className="text-[#878787] font-light">An ecosystem that prioritizes stakeholders</p>
             </div>
         </div>
        
