@@ -43,10 +43,12 @@ const InternetSecurity = () => {
               <p className="text-[#878787] font-light">An ecosystem that prioritizes stakeholders</p>
             </div>
         </div>
-       
-        <button className="flex w-[230px] btn bg-[#181818] rounded-md text-sm font-extrabold px-8 py-3 text-white border-[#55585E] hover:opacity-75">
+
+        <a href="https://devpn.gitbook.io" target="_blank">
+        <button className="flex w-[230px] btn bg-[#181818] rounded-md text-sm font-extrabold px-8 py-3 my-3 text-white border-[#55585E] hover:opacity-75">
             Find out more <FaArrowRight />
           </button>
+          </a>
       </div>
 
       <div className="relative z-0 my-20 mx-auto lg:w-1/3">

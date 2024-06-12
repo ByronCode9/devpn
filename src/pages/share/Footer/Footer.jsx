@@ -26,15 +26,15 @@ const Footer = () => {
                 <HashLink to="#features" className="text-[#797E86] transition ease-in-out  hover:text-[#cececece]">Features</HashLink>
                 <HashLink to="#roadmap" className="text-[#797E86] transition ease-in-out  hover:text-[#cececece]">Roadmap</HashLink>
                 <HashLink to="#economics" className="text-[#797E86] transition ease-in-out  hover:text-[#cececece]">Economics</HashLink>
-                <HashLink to="www" className="text-[#797E86] transition ease-in-out  hover:text-[#cececece]">Documentation</HashLink>
+                <HashLink to="https://devpn.gitbook.io" target="_blank" className="text-[#797E86] transition ease-in-out  hover:text-[#cececece]">Documentation</HashLink>
           </nav>
           
           {/* Legal */}
           <nav className='z-20'>
             <h6 className="footer-title text-white">Information</h6>
-            <a href="doc" className="transition ease-in-out  hover:text-[#cececece] text-[#797E86]">Documentation</a>
-            <a href="doc" className="transition ease-in-out  hover:text-[#cececece] text-[#797E86]">Whitepaper</a>
-            <a href="doc" className="transition ease-in-out  hover:text-[#cececece] text-[#797E86]">Disclaimer</a>
+            <a href="https://devpn.gitbook.io" target="_blank" className="transition ease-in-out  hover:text-[#cececece] text-[#797E86]">Documentation</a>
+            <a href="https://devpn.gitbook.io" target="_blank" className="transition ease-in-out  hover:text-[#cececece] text-[#797E86]">Whitepaper</a>
+            <a href="https://devpn.gitbook.io" target="_blank" className="transition ease-in-out  hover:text-[#cececece] text-[#797E86]">Disclaimer</a>
           </nav>
         </div>
 

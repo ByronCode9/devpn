@@ -17,25 +17,25 @@ const Connect = () => {
             <div className="telegram grid-col mx-auto w-full h-full rounded-xl transition ease-in text-white hover:text-[#181818] p-10 z-50 hover:bg-white hover:shadow">
                 <a href="www">
                     <img src={telegram} alt="" className='w-20 mx-auto'/>
-                    <div className="text-center pt-5 text-3xl">Telegram</div>
+                    <div className="text-center pt-5 xl:text-3xl text-lg ">Telegram</div>
                 </a>
             </div>
             <div className="x grid-col mx-auto w-full h-full rounded-xl transition ease-in text-white hover:text-[#181818] p-10 z-50 hover:bg-white hover:shadow">
                 <a href="www">
                     <img src={twitter} alt="" className='w-20 mx-auto'/>
-                    <div className="text-center pt-5 text-3xl">Twitter / X</div>
+                    <div className="text-center pt-5 xl:text-3xl text-lg">Twitter / X</div>
                 </a>
             </div>
             <div className="dextools grid-col mx-auto w-full h-full rounded-xl transition ease-in text-white hover:text-[#181818] p-10 z-50 hover:bg-white hover:shadow">
                 <a href="www">
                     <img src={dextools} alt="" className='w-[4rem] mx-auto'/>
-                    <div className="text-center pt-5 text-3xl">Dextools</div>
+                    <div className="text-center pt-5 xl:text-3xl text-lg">Dextools</div>
                 </a>
             </div>
             <div className="uniswap grid-col mx-auto w-full h-full rounded-xl transition ease-in text-white hover:text-[#181818] p-10 z-50 hover:bg-white hover:shadow">
                 <a href="www">
                     <img src={uniswap} alt="" className='w-[4rem] mx-auto'/>
-                    <div className="text-center pt-5 text-3xl">Uniswap</div>
+                    <div className="text-center pt-5 xl:text-3xl text-lg">Uniswap</div>
                 </a>
             </div>
         </div>

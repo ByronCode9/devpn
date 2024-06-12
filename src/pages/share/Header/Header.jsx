@@ -63,7 +63,7 @@ const Header = () => {
           <HashLink to="#features" className="text-[#181818] transition ease-in-out  hover:text-[#cececece]">Features</HashLink>
           <HashLink to="#roadmap" className="text-[#181818] transition ease-in-out  hover:text-[#cececece]">Roadmap</HashLink>
           <HashLink to="#economics" className="text-[#181818] transition ease-in-out  hover:text-[#cececece]">Economics</HashLink>
-          <HashLink to="doc" className="text-[#181818] transition ease-in-out  hover:text-[#cececece]">Documentation</HashLink>
+          <HashLink to="https://devpn.gitbook.io" target="_blank" className="text-[#181818] transition ease-in-out  hover:text-[#cececece]">Documentation</HashLink>
         </div>
         </Fade>
         {/* Mobile Navigation Menu */}
