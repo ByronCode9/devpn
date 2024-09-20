@@ -61,7 +61,6 @@ const Header = () => {
         <div className="hidden lg:flex lg:items-center text-md font-normal lg:space-x-8 px-10 z-10  hover:text-[#cececece]">
           <HashLink to="#aboutus" className="text-[#181818] transition ease-in-out  hover:text-[#cececece]">About</HashLink>
           <HashLink to="#features" className="text-[#181818] transition ease-in-out  hover:text-[#cececece]">Features</HashLink>
-          <HashLink to="#roadmap" className="text-[#181818] transition ease-in-out  hover:text-[#cececece]">Roadmap</HashLink>
           <HashLink to="#economics" className="text-[#181818] transition ease-in-out  hover:text-[#cececece]">Economics</HashLink>
           <HashLink to="https://devpn.gitbook.io" target="_blank" className="text-[#181818] transition ease-in-out  hover:text-[#cececece]">Documentation</HashLink>
         </div>
@@ -86,7 +85,6 @@ const Header = () => {
               <ul className="flex flex-col gap-5 mt-5 lg:flex-row lg:items-center lg:space-x-8">
                 <li><HashLink to="#aboutus" className="text-[#FFF] transition ease-in-out  hover:text-[#cececece]">About</HashLink></li>
                 <li><HashLink to="#features" className="text-[#FFF] transition ease-in-out  hover:text-[#cececece]">Features</HashLink></li>
-                <li><HashLink to="#roadmap" className="text-[#FFF] transition ease-in-out  hover:text-[#cececece]">Roadmap</HashLink></li>
                 <li><HashLink to="#economics" className="text-[#FFF] transition ease-in-out  hover:text-[#cececece]">Economics</HashLink></li>
                 <li><HashLink to="www" className="text-[#FFF] transition ease-in-out  hover:text-[#cececece]">Documentation</HashLink></li>
               </ul>
@@ -98,10 +96,10 @@ const Header = () => {
         
         <div className="hidden lg:flex lg:items-center">
         <Fade direction="right">
-          <HashLink to="" data-tooltip-target="tooltip-default" className=" flex-nowrap btn text-white bg-[#181818] flex rounded-md text-sm z-10 px-8 py-3 hover:opacity-75 transition-all">
+          <HashLink to="" data-tooltip-target="tooltip-default" className=" flex-nowrap btn text-white bg-[#181818] flex rounded-md text-sm z-10 px-8 py-3 hover:text-[#181818] border-2 hover:bg-transparent hover:border-solid transition-all duration-300">
               Download <FaArrowRight />
           </HashLink>
-          </Fade>
+        </Fade>
           <div id="tooltip-default" role="tooltip" class="absolute z-100 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
             Coming soon!
             <div class="tooltip-arrow" data-popper-arrow></div>
