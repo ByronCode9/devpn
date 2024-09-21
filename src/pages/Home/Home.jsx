@@ -1,39 +1,63 @@
 import GetPivien from "./GetPivien/GetPivien";
-import AvailableServers from "./AvailableServers/AvailableServers";
+import AvailableServers from "./CTA/CTA";
 import MyVPN from "./MyVPN/MyVPN";
 import InternetSecurity from "./InternetSecurity/InternetSecurity";
 import DecentralisedVPN from "./DecentralisedVPN/DecentralisedVPN";
 import VPNRoadmap from "./VPNRoadmap/VPNRoadmap";
-import TotalSupply from "./TotalSupply/TotalSupply";
+import TotalSupply from "./Investors/Investors";
 import GlobalServer from "./GlobalServer/GlobalServer";
 import Connect from "./Connect/Connect";
+import PrivacyGuard from "./PrivacyGuard/PrivacyGuard";
+import FirstMover from "./FirstMover/FirstMover"
+import HybridVpn from "./HybridVPN/HybridVpn";
+import PrivacyStorage from "./PrivacyStorage/PrivacyStorage"
+import OneHome from "./OneHome/OneHome";
+import OneTravel from "../OneTravel/OneTravel";
+import Investors from "./Investors/Investors";
+import CTA from "./CTA/CTA";
 
 const Home = () => {
   return (
-    <div className="container mx-auto px-8 mt-16 overflow-hidden"> {/* Parent container */}      
-      {/* Component: GetPivien */}
+    <div className="container mx-auto px-8 mt-8 overflow-hidden"> {/* Parent container */}      
+      {/* HERO */}
       <GetPivien />
 
-      {/* Component: AvailableServers */}
-      <AvailableServers />
-
-      {/* Component: MyVPN */}
-      <MyVPN />
-      
-      {/* Component: InternetSecurity */}
-      <InternetSecurity />
-      <Connect />
-      {/* Component: DecentralisedVPN */}
+      {/* 2 */}
       <DecentralisedVPN />
 
+      {/* 3 */}
+      <MyVPN />
 
+      {/* 4 */}
+      <PrivacyGuard />
+      
+      {/* 5 */}
+      <InternetSecurity />
+
+      {/* 6 */}
+      <FirstMover />
+      
+      {/* 7 */}
+      <HybridVpn />
+
+      {/* 8 */}
+      <PrivacyStorage />
 
       {/* Component: VPNRoadmap */}
-      <VPNRoadmap />
+      {/* <VPNRoadmap /> */}
 
-      {/* Component: TotalSupply */}
-      <TotalSupply />
+      {/* 10 */}
+      <OneHome />
+      
+      {/* 11 */}
+      <OneTravel />
 
+      {/* 12 */}
+      <Investors />
+
+      {/* 13 */}
+      <CTA />
+      <Connect />
       {/* Component: GlobalServer */}
       <GlobalServer />
     </div>
