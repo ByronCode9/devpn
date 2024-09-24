@@ -15,6 +15,7 @@ import OneHome from "./OneHome/OneHome";
 import OneTravel from "../OneTravel/OneTravel";
 import Investors from "./Investors/Investors";
 import CTA from "./CTA/CTA";
+import CompetitiveEdge from "./CompetitiveEdge/CompetitiveEdge";
 
 const Home = () => {
   return (
@@ -29,10 +30,10 @@ const Home = () => {
       <MyVPN />
 
       {/* 4 */}
-      <PrivacyGuard />
+      <InternetSecurity />
       
       {/* 5 */}
-      <InternetSecurity />
+      <PrivacyGuard />
 
       {/* 6 */}
       <FirstMover />
@@ -41,7 +42,7 @@ const Home = () => {
       <HybridVpn />
 
       {/* 8 */}
-      <PrivacyStorage />
+      {/* <PrivacyStorage /> */}
 
       {/* Component: VPNRoadmap */}
       {/* <VPNRoadmap /> */}
@@ -53,11 +54,12 @@ const Home = () => {
       <OneTravel />
 
       {/* 12 */}
+      <CompetitiveEdge />
       <Investors />
 
       {/* 13 */}
-      <CTA />
-      <Connect />
+      {/* <CTA />
+      <Connect /> */}
       {/* Component: GlobalServer */}
       <GlobalServer />
     </div>

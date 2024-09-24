@@ -94,7 +94,7 @@ const Header = () => {
 
         {/* Login and Download buttons */}
         
-        <div className="hidden lg:flex lg:items-center">
+        {/* <div className="hidden lg:flex lg:items-center">
         <Fade direction="right">
           <HashLink to="" data-tooltip-target="tooltip-default" className=" flex-nowrap btn text-white bg-[#181818] flex rounded-md text-sm z-10 px-8 py-3 hover:text-[#181818] border-2 hover:bg-transparent hover:border-solid transition-all duration-300">
               Download <FaArrowRight />
@@ -103,9 +103,7 @@ const Header = () => {
           <div id="tooltip-default" role="tooltip" class="absolute z-100 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
             Coming soon!
             <div class="tooltip-arrow" data-popper-arrow></div>
-          </div>
-
-        </div>
+          </div> */}
       </div>
     </div>
   );

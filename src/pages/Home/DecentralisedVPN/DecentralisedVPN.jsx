@@ -1,39 +1,38 @@
-import firstIcon from "../../../assets/iconMov_1.mp4";
-import secIcon from "../../../assets/iconMov_2.mp4";
-import keyIcon from "../../../assets/key.mp4";
-import thirdIcon from "../../../assets/iconMov_3.mp4";
-import fourthIcon from "../../../assets/iconMov_4.mp4";
-import fifthIcon from "../../../assets/iconMov_5.mp4";
-import sixthIcon from "../../../assets/iconMov_6.mp4";
+import prot from "../../../assets/Protection.mp4"
+import secSys from "../../../assets/SecureSystem.mp4"
+import monitor from "../../../assets/Monitoring.mp4"
+import safe from "../../../assets/Safe.mp4"
+import home from "../../../assets/HomeProtection.mp4"
+import finger from "../../../assets/Fingerprint.mp4"
 
 import { Fade, Slide } from 'react-awesome-reveal';
 
 const DecentralisedVPN = () => {
   return (
       <div className="relative bg-[#F9FAFC] mt-24 lg:mt-0 z-10 ">
-      {/* <Fade> */}
-      <div className="container mx-auto px-4 lg:px-8 py-10 space-y-5 ">
-        <div className="flex flex-col items-center gap-5">
+      <div className="container mx-auto px-4 lg:px-8 py-10">
+        <div className="flex flex-col items-center gap-2">
           <h1 className="text-43xl z-10 w-full md:text-4xl lg:text-5xl md:leading-snug tracking-tighter font-black lg:leading-snug text-center text-[#181818]">
-          Explore DeVPN's Global Privacy Solutions
+          Explore DeVPN Privacy Solutions
           </h1>
           <p className="text-blue-600 text-xl md:leading-snug tracking-tighter  font-black lg:leading-snug">
-          Protect Yourself and Your Family from Hackers, Surveillance, and Data Exploitation Today!
+          Protect yourself from hackers, surveillance, and exploitation today!
           </p>
-          <div className="grid z-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5 lg:gap-5 mt-4">
+          <div className="grid z-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5 lg:gap-5 mt-10">
             <div className="grid md:grid-cols-2 border-black/5 shadow lg:grid-cols-3 bg-[#fff] rounded-xl p-5 border">
               <div className="text-center lg:flex lg:flex-col lg:text-start lg:justify-center md:col-span-1 lg:col-span-2">
-                <h1 className="text-xl  lg:text-2xl font-semibold text-[#181818] mb-6">
-                  DEVPN Privacy Guard
+                <h1 className="text-2xl  lg:text-3xl md:leading-snug tracking-tighter font-black lg:leading-snug text-[#181818] mb-5">
+                  DeVPN Privacy Guard
                 </h1>
                 <p className="text-[#181818] text-[14px]  md:w-full lg:w-full font-normal">
-                  DEVPN offers a free, anonymous alert system that scans the internet for leaked user data, providing real-time notifications to help you act
-                  quickly when corporate companies let you down. <br /> <br /> With features like dark web monitoring and family management, we enhance safety and
-                  privacy first for you and your loved ones.
+                A free, anonymous alert system that scans the dark sides of the
+                internet for leaked user data, providing real-time notifications to
+                help you act quickly when corporate companies let you down. <br /> <br /> With features like dark web monitoring and family management,
+                we enhance safety and privacy first for you and your loved ones.
                 </p>
               </div>
               <div className="flex z-10 justify-center items-center mt-5">
-              <video src={fifthIcon} loop
+              <video src={prot} loop
           muted
           autoPlay
           playsInline width={150} height={150} type="video/mp4">
@@ -43,17 +42,18 @@ const DecentralisedVPN = () => {
 
             <div className="grid md:grid-cols-2 border-black/5 shadow lg:grid-cols-3 bg-[#fff] rounded-xl p-5 border">
               <div className="text-center lg:flex lg:flex-col lg:text-start lg:justify-center md:col-span-1 lg:col-span-2">
-                <h1 className="text-xl  lg:text-2xl font-semibold text-[#181818] mb-6">
-                  DEVPN Privacy Mail
+                <h1 className="text-2xl  lg:text-3xl md:leading-snug tracking-tighter font-black lg:leading-snug text-[#181818] mb-5">
+                  DeVPN Privacy Mail
                 </h1>
                 <p className="text-[#181818] text-[14px]  md:w-full lg:w-full font-normal">
-                DEVPN offers free, anonymous disposable email addresses as a first line of defense against exploitation and spam! <br /> <br />This service protects
-                your identity and, unlike similar services, operates without external ads, ensuring complete privacy and anonymity by safeguarding you
-                from data brokers and phishing attempts.
+                Over 10 billion breached email accounts in the past five years.
+                Minimize your risks for free today and avoid the consequences! <br /> <br />DEVPN keeps your primary mailbox clean and acts as an
+                anonymous first line of defense against exploitation and spam,
+                protecting you from data brokers and phishing attempts.
                 </p>
               </div>
               <div className="flex z-10 justify-center items-center mt-5">
-              <video src={fourthIcon} loop
+              <video src={secSys} loop
           muted
           autoPlay
           playsInline width={150} height={150} type="video/mp4">
@@ -63,17 +63,20 @@ const DecentralisedVPN = () => {
 
             <div className="grid md:grid-cols-2 border-black/5 shadow lg:grid-cols-3 bg-[#fff] rounded-xl p-5 border">
               <div className="text-center lg:flex lg:flex-col lg:text-start lg:justify-center md:col-span-1 lg:col-span-2">
-                <h1 className="text-xl  lg:text-2xl font-semibold text-[#181818] mb-6">
-                  DEVPN Hybrid VPN
+                <h1 className="text-2xl  lg:text-3xl md:leading-snug tracking-tighter font-black lg:leading-snug text-[#181818] mb-5">
+                  DeVPN Hybrid VPN
                 </h1>
                 <p className="text-[#181818] text-[14px]  md:w-full lg:w-full font-normal">
-                DEVPN introduces the world’s most privacy-driven VPN. <br /> <br /> Unlike any of our competitors, we meet all consumer needs without compromise,
-                providing superior privacy, security, performance, and global content access by seamlessly merging decentralized and corporate
-                technologies into a unique hybrid framework.
+                Proudly introducing the world’s first privacy-driven VPN service. <br /> <br />  Unlike our competitors, we exceed user needs without compromising
+                consumers. By seamlessly merging decentralized and corporate
+                technologies into one unique hybrid framework, DEVPN delivers
+                superior privacy, security, performance, and global content access.
+
                  </p>
               </div>
               <div className="flex z-10 justify-center items-center mt-5">
-              <video src={fifthIcon}loop
+              <video src={monitor}
+              loop
           muted
           autoPlay
           playsInline  width={150} height={150} type="video/mp4">
@@ -83,17 +86,18 @@ const DecentralisedVPN = () => {
 
             <div className="grid md:grid-cols-2 border-black/5 shadow lg:grid-cols-3 bg-[#fff] rounded-xl p-5 border">
               <div className="text-center lg:flex lg:flex-col lg:text-start lg:justify-center md:col-span-1 lg:col-span-2">
-                <h1 className="text-xl  lg:text-2xl font-semibold text-[#181818] mb-6">
-                  DEVPN Privacy Storage
+                <h1 className="text-2xl  lg:text-3xl md:leading-snug tracking-tighter font-black lg:leading-snug text-[#181818] mb-5">
+                  DeVPN Privacy Storage
                 </h1>
                 <p className="text-[#181818] text-[14px]  md:w-full lg:w-full font-normal">
-                  DEVPN introduces Privacy Storage, the world’s most privacy-focused cloud storage solution. <br /> <br /> It challenges commercial providers by offering
-                  a hybrid network that protects consumer photos, videos, and files from the surveillance, commercial exploitation, and transparency issues
-                  found across those same competitors.
+                World’s most privacy-driven and transparent
+                cloud storage network that refuses to compromise consumer trust. <br /> <br />  Our hybrid network guarantees consumers their photos, videos, and
+                files are truly safe from surveillance, commercial exploitation, and
+                transparency issues commonly found with corporate competitors.
                 </p>
               </div>
               <div className="flex z-10 justify-center items-center mt-5">
-              <video src={fifthIcon} loop
+              <video src={safe} loop
           muted
           autoPlay
           playsInline  width={150} height={150} type="video/mp4">
@@ -103,17 +107,18 @@ const DecentralisedVPN = () => {
 
             <div className="grid md:grid-cols-2 border-black/5 shadow lg:grid-cols-3 bg-[#fff] rounded-xl p-5 border">
               <div className="text-center lg:flex lg:flex-col lg:text-start lg:justify-center md:col-span-1 lg:col-span-2">
-                <h1 className="text-xl  lg:text-2xl font-semibold text-[#181818] mb-6">
-                DEVPN One Home
+                <h1 className="text-2xl  lg:text-3xl md:leading-snug tracking-tighter font-black lg:leading-snug text-[#181818] mb-5">
+                DeVPN One Home
                 </h1>
                 <p className="text-[#181818] text-[14px]  md:w-full lg:w-full font-normal">
-                DEVPN OneHomeprovides an all-in-one privacy solution for households. <br /> <br /> It ensures that family members, their devices, and
-                internet-connected appliances like TVs and domestic devices remain private and secure, offering premium protection against unauthorized
-                access, data exploitation, and surveillance monitoring.
+                The all-in-one privacy set-top box that guarantees full household
+                safety by safeguarding every family member and device in the home. <br /> <br />  Actively protecting every internet connection, including smart TVs
+                and modern household appliances, with premium security against
+                unauthorized access, data exploitation, and external surveillance.
                 </p>
               </div>
               <div className="flex z-10 justify-center items-center mt-5">
-              <video src={fifthIcon} loop
+              <video src={home} loop
           muted
           autoPlay
           playsInline  width={150} height={150} type="video/mp4">
@@ -123,17 +128,20 @@ const DecentralisedVPN = () => {
 
             <div className="grid md:grid-cols-2 border-black/5 shadow lg:grid-cols-3 bg-[#fff] rounded-xl p-5 border">
               <div className="text-center lg:flex lg:flex-col lg:text-start lg:justify-center md:col-span-1 lg:col-span-2">
-                <h1 className="text-xl  lg:text-2xl font-semibold text-[#181818] mb-6">
-                  DEVPN One Travel
+                <h1 className="text-2xl  lg:text-3xl md:leading-snug tracking-tighter font-black lg:leading-snug text-[#181818] mb-5">
+                  DeVPN One Travel
                 </h1>
                 <p className="text-[#181818] text-[14px]  md:w-full lg:w-full font-normal">
-                DEVPN OneTravel offers an all-in-one privacy solution for travelers, safeguarding online activities on any internet source, including free
- public Wi-Fi and unsecured networks. <br /> <br /> It ensures security for family vacations, business trips, and student life, providing next-generation
- protection in areas with strict internet limitations.
+                The ideal travel companion that offers a portable all-in-one privacy
+                solution for travelers, safeguarding online activities across any
+                internet source, including free public Wi-Fi and unsecured networks. <br /> <br />  This compact device guarantees security for all its users and devices,
+                whether on family vacations or business trips, protecting everyone
+                wherever they go, even in areas with strict internet limitations.
+
                 </p>
               </div>
               <div className="flex z-10 justify-center items-center mt-5">
-              <video src={thirdIcon} loop
+              <video src={finger} loop
           muted
           autoPlay
           playsInline width={150} height={150} type="video/mp4">
