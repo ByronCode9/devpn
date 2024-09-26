@@ -1,5 +1,5 @@
 import { Fade } from "react-awesome-reveal";
-import keys from "../../../assets/AccessKeys.mp4";
+import keys from "../../../assets/privacy.mp4";
 import { FaArrowRight } from "react-icons/fa6";
 import { IoCheckmarkCircleSharp } from "react-icons/io5";
 
@@ -10,9 +10,9 @@ const OneHome = () => {
       <div className="lg:w-full relative z-10 lg:space-x-16 lg:grid mt-10 lg:grid-cols-2 md:grid md:grid-cols-2">
         <div className="relative md:flex lg:flex lg:justify-center md:justify-center align-middle bg-transparent space-y-4 lg:space-y-2 px-6 lg:px-10 py-8">
           <div className="rounded-xl bg-transparent my-auto">
-          <div className="my-auto"
+          <div className="my-auto h-1/2"
             dangerouslySetInnerHTML={{
-              __html: `<video autoPlay="autoplay" playsInLine=" height="250" width="250" playsinline" loop="true" muted="true">
+              __html: `<video autoPlay="autoplay" playsInLine="true" height="500" width="500" loop="true" muted="true">
                       <source src=${keys} type="video/mp4" />
                       Your browser does not support the video tag.
                       </video>`,

@@ -27,7 +27,7 @@ const Main = () => {
       </div>
       <div className="hidden lg:block overflow-hidden z-0">
         {/* Background image on the right side for MyVPN section */}
-        <div className="absolute -z-5 top-[60%] right-0 bottom-0 rounded-l-full overflow-hidden opacity-25">
+        <div className="absolute -z-5 top-[50%] right-0 bottom-0 rounded-l-full overflow-hidden opacity-25">
           <img className="w-full" src={leftSideBg} alt="" />
         </div>
       </div>
