@@ -1,45 +1,39 @@
-import GetPivien from "./GetPivien/GetPivien";
-import AvailableServers from "./CTA/CTA";
-import MyVPN from "./MyVPN/MyVPN";
-import InternetSecurity from "./InternetSecurity/InternetSecurity";
-import DecentralisedVPN from "./DecentralisedVPN/DecentralisedVPN";
-import VPNRoadmap from "./VPNRoadmap/VPNRoadmap";
-import TotalSupply from "./Investors/Investors";
+import Hero from "./Hero/Hero";
+import CustomerAssurance from "./CustomerAssurance/CustomerAssurance";
+import PrivacySolutions from "./PrivacySolutions/PrivacySolutions";
 import GlobalServer from "./GlobalServer/GlobalServer";
-import Connect from "./Connect/Connect";
 import PrivacyGuard from "./PrivacyGuard/PrivacyGuard";
 import FirstMover from "./FirstMover/FirstMover"
-import HybridVpn from "./HybridVPN/HybridVpn";
-import PrivacyStorage from "./PrivacyStorage/PrivacyStorage"
-import OneHome from "./OneHome/OneHome";
-import OneTravel from "../OneTravel/OneTravel";
+import NewTec from "./NewTec/NewTec";
+import HybridPrivacy from "./HybridPrivacy/HybridPrivacy";
+import InvestorAssurance from "../InvestorAssurance/InvestorAssurance";
 import Investors from "./Investors/Investors";
-import CTA from "./CTA/CTA";
 import CompetitiveEdge from "./CompetitiveEdge/CompetitiveEdge";
+import PrivacyMail from "./PrivacyMail/PrivacyMail";
 
 const Home = () => {
   return (
     <div className="container mx-auto px-8 mt-8 overflow-hidden"> {/* Parent container */}      
-      {/* HERO */}
-      <GetPivien />
+
+      <Hero />
 
       {/* 2 */}
-      <DecentralisedVPN />
+      <PrivacySolutions />
 
       {/* 3 */}
-      <MyVPN />
+      <CustomerAssurance />
 
       {/* 4 */}
-      <InternetSecurity />
+      <PrivacyGuard />
       
       {/* 5 */}
-      <PrivacyGuard />
+      <PrivacyMail />
 
       {/* 6 */}
       <FirstMover />
       
       {/* 7 */}
-      <HybridVpn />
+      <NewTec />
 
       {/* 8 */}
       {/* <PrivacyStorage /> */}
@@ -48,10 +42,10 @@ const Home = () => {
       {/* <VPNRoadmap /> */}
 
       {/* 10 */}
-      <OneHome />
+      <HybridPrivacy />
       
       {/* 11 */}
-      <OneTravel />
+      <InvestorAssurance />
 
       {/* 12 */}
       <CompetitiveEdge />

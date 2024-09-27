@@ -30,7 +30,7 @@ const CompetitiveEdge = () => {
           />
           <h1 className="text-xl md:text-3xl md:leading-snug tracking-tighter font-black lg:leading-snug text-center text-blue-600 mt-5">Disruptive & Superior</h1>
           <p className="text-[#181818] text-md text-center mt-5">
-            None of the top 100 most popular VPNs can match the privacy guarantees our hybrid network provides.
+            None of the top 100 most popular VPNs can match the privacy guarantees our hybrid ecosystem provides.
           </p>
         </div>
 

@@ -1,12 +1,8 @@
 import { Fade } from "react-awesome-reveal";
 import icon1 from "../../../assets/Data Protection-01.svg";
-import icon2 from "../../../assets/Data Protection-16.svg";
 import icon3 from "../../../assets/Data Protection-03.svg";
-import icon4 from "../../../assets/Data Protection-05.svg";
-import icon5 from "../../../assets/Data Protection-09.svg";
-import icon6 from "../../../assets/Data Protection-12.svg";
-import icon7 from "../../../assets/Data Protection-06.svg";
 import icon8 from "../../../assets/Data Protection-10.svg";
+
 const MyVPN = () => {
   return (
   <div className="relative w-full py-20">

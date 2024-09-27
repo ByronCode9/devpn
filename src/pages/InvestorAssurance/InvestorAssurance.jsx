@@ -4,13 +4,13 @@ import { Fade } from "react-awesome-reveal";
 import video from "../../assets/second.mp4"
 
 
-const OneTravel = () => {
+const InvestorAssurance = () => {
   return (
     <div className="relative w-full">
       <div id="features" className="relative flex flex-col lg:flex-row justify-between items-center lg:space-x-44 py-24 overflow-hidden">
 
-        <div className="flex flex-col items-center lg:block text-center z-10 lg:text-left md:w-9/12 lg:w-1/2 space-y-7 relative">
-          <h2 className="text-3xl z-10 md:w-[60%] lg:w-full md:text-3xl lg:text-5xl md:leading-snug tracking-tighter font-black lg:leading-snug text-left text-[#181818]">
+        <div className="flex flex-col items-center lg:block text-center z-10 lg:text-left md:w-9/12 lg:w-3/5 space-y-7 relative">
+          <h2 className="text-3xl z-10 md:text-3xl lg:text-5xl md:leading-snug tracking-tighter font-black lg:leading-snug text-left text-[#181818]">
             Investor Assurance
           </h2>
           <p className="text-[#797E86]">
@@ -18,13 +18,12 @@ const OneTravel = () => {
             unbeatable solutions that outperform any current competitors.
           </p>
           <p className="text-[#797E86]">
-            Our scalable hybrid networks include investment opportunities like Sentry Nodes, meeting and exceeding growing user demand,
-            offering investors early access to a rapidly expanding ecosystem
+            Our scalable hybrid ecosystem includes investment opportunities like Sentry Nodes, which meet growing user demand and provide investors with early access to multiple expanding networks.
           </p>
           <p className="text-[#181818] text-md mt-5 md:leading-snug font-black lg:leading-snug">
           Investors can rely on the following features:
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 lg:gap-2">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
               <div className="flex gap-2">
                 <p className="text-xl text-blue-600">
                   <IoCheckmarkCircleSharp />
@@ -52,7 +51,7 @@ const OneTravel = () => {
           </div>
         </div>
 
-        <div className="z-0 my-20 mx-auto">
+        <div className="">
           <div className="my-auto"
             dangerouslySetInnerHTML={{
               __html: `<video autoPlay="autoplay" playsInLine="true" height="700" width="700" loop="true" muted="true">
@@ -68,4 +67,4 @@ const OneTravel = () => {
   );
 };
 
-export default OneTravel;
+export default InvestorAssurance;

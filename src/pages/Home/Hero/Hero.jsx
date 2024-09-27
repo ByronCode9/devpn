@@ -1,11 +1,11 @@
 import { FaArrowRight } from "react-icons/fa6";
-import "./GetPivien.css";
+import "./Hero.css";
 import { Fade } from 'react-awesome-reveal';
 import { HashLink } from "react-router-hash-link";
 import hero from "../../../assets/x.mp4";
 import { RxCross2 } from "react-icons/rx";
 
-const GetPivien = () => {
+const Hero = () => {
   return (
     <div className="flex flex-col w-full md:flex-row lg:flex-row items-center py-20 justify-between">
       <div className="text-center w-full md:w-1/2 z-10 md:text-left lg:text-left">
@@ -67,4 +67,4 @@ const GetPivien = () => {
   );
 };
 
-export default GetPivien;
+export default Hero;

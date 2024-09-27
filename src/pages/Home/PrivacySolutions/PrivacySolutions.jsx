@@ -67,7 +67,7 @@ const DecentralisedVPN = () => {
                   DeVPN Hybrid VPN
                 </h1>
                 <p className="text-[#181818] text-[14px]  md:w-full lg:w-full font-normal">
-                Proudly introducing the world’s first privacy-driven VPN service. <br /> <br />  Unlike our competitors, we exceed user needs without compromising
+                Proudly introducing the world’s first privacy-driven VPN service. <br /> <br />  Unlike competitors, we exceed user needs without compromising
                 consumers. By seamlessly merging decentralized and corporate
                 technologies into one unique hybrid framework, DEVPN delivers
                 superior privacy, security, performance, and global content access.
@@ -92,7 +92,7 @@ const DecentralisedVPN = () => {
                 <p className="text-[#181818] text-[14px]  md:w-full lg:w-full font-normal">
                 World’s most privacy-driven and transparent
                 cloud storage network that refuses to compromise consumer trust. <br /> <br />  Our hybrid network guarantees consumers their photos, videos, and
-                files are truly safe from surveillance, commercial exploitation, and
+                files are safe from surveillance, commercial exploitation, and
                 transparency issues commonly found with corporate competitors.
                 </p>
               </div>
@@ -112,7 +112,7 @@ const DecentralisedVPN = () => {
                 </h1>
                 <p className="text-[#181818] text-[14px]  md:w-full lg:w-full font-normal">
                 The all-in-one privacy set-top box that guarantees full household
-                safety by safeguarding every family member and device in the home. <br /> <br />  Actively protecting every internet connection, including smart TVs
+                safety by protecting every family member and device in the home. <br /> <br />  Actively protecting every internet connection, including smart TVs
                 and modern household appliances, with premium security against
                 unauthorized access, data exploitation, and external surveillance.
                 </p>
@@ -132,12 +132,9 @@ const DecentralisedVPN = () => {
                   DeVPN One Travel
                 </h1>
                 <p className="text-[#181818] text-[14px]  md:w-full lg:w-full font-normal">
-                The ideal travel companion that offers a portable all-in-one privacy
-                solution for travelers, safeguarding online activities across any
-                internet source, including free public Wi-Fi and unsecured networks. <br /> <br />  This compact device guarantees security for all its users and devices,
-                whether on family vacations or business trips, protecting everyone
-                wherever they go, even in areas with strict internet limitations.
-
+                  Your perfect travel companion, offering a portable all-in-one privacy solution, protecting you on free public Wi-Fi and unsafe networks.
+                  <br /> <br />
+                  This compact device guarantees security for all users and their devices, whether on family vacations or business trips, providing protection even in areas with strict internet limitations.
                 </p>
               </div>
               <div className="flex z-10 justify-center items-center mt-5">
