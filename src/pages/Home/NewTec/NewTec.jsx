@@ -25,12 +25,12 @@ const HybridVpn = () => {
                   Artificial Intelligence
                 </h1>
                 <p className="text-[#181818] text-[14px]  md:w-full lg:w-[90%] justify-center text-justify font-normal">
-                  Our VPN and storage networks operate exclusively on premium hardware, both utilizing AI to achieve superior efficiency compared
-                  to competitors by delivering optimized performance and reliability.
+                  Our storage and VPN networks operate exclusively on premium hardware across both centralized and decentralized networks.
+                  DeVPN utilizes AI to optimize our infrastructure, extracting the maximum possible performance and reliability from our hybrid ecosystem.
                 </p>
                 <p className="text-[#181818] text-[14px] mt-5  md:w-full lg:w-[90%] text-justify font-normal">
-                  By analyzing and adapting to potential threats and internet bottlenecks in real time, our AI further solidifies DEVPN's unique capability
-                  to rapidly scale and efficiently manage sudden traffic spikes.
+                  Our AI analyzes potential security threats and adapts to internet bottlenecks in real time, 
+                  solidifying our unique ability to rapidly scale and efficiently manage sudden traffic spikes.
                 </p>
               </div>
             </div>
@@ -48,12 +48,11 @@ const HybridVpn = () => {
                   Sentry Node Network
                 </h1>
                 <p className="text-[#181818] text-[14px]  md:w-full lg:w-[90%] text-justify font-normal">
-                  DEVPN introduces an innovation that heavily disrupts the VPN market by offering superior privacy and content access compared to
-                  competitors in both decentralized and corporate infrastructures.
+                  DeVPN introduces a VPN innovation that heavily disrupts the current market with unrivaled privacy and broader content access, outclassing the networks of all competitors.
                 </p>
                 <p className="text-[#181818] text-[14px] mt-5  md:w-full lg:w-[90%] text-justify font-normal">
-                  Powered by a commercial operator framework, Sentry Nodes guarantee unmatched anonymity on specialized hardware, enabling
-                  high-speed global internet access and rapid network expansion.
+                  Sentry Nodes guarantee unmatched anonymity for both consumers and commercial operators through dedicated high-speed mobile devices. 
+                  Our network provides consumers with broader access to content, bypassing restrictions and driving privacy at full speed.
                 </p>
               </div>
             </div>

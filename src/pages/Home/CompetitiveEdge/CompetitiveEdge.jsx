@@ -5,10 +5,10 @@ import icon8 from "../../../assets/Data Protection-10.svg";
 
 const CompetitiveEdge = () => {
   return (
-  <div className="relative w-full">
-     <div className="flex flex-col justify-between w-full z-50">
-      <h1 className="text-3xl z-10 md:w-[60%] lg:w-full md:text-3xl lg:text-5xl md:leading-snug tracking-tighter font-black lg:leading-snug text-center text-[#181818]">DeVPN Competitive Edge</h1>
- </div>
+    <div className="relative w-full">
+      <div className="flex flex-col justify-between w-full z-50">
+        <h1 className="text-3xl z-10 md:w-[60%] lg:w-full md:text-3xl lg:text-5xl md:leading-snug tracking-tighter font-black lg:leading-snug text-center text-[#181818]">DeVPN Competitive Edge</h1>
+      </div>
       <div className="grid lg:grid-cols-3 lg:grid-rows-1 gap-4 grid-cols-1 grid-rows-auto mt-20">
         <div className="flex flex-col border-black/5 lg:w-auto p-4 items-center z-50">
           <img
@@ -46,7 +46,7 @@ const CompetitiveEdge = () => {
           </p>
         </div>
       </div>
-  </div>
+    </div>
   );
 };
 

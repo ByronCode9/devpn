@@ -16,6 +16,26 @@ const OneHome = () => {
               technologies to set unbeatable higher industry standards.
             </p>
           </div>
+          <div id="economics" className="relative mx-auto z-10 py-5">
+           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto text-center mt-10 w-3/4">
+              <div className="name px-3 py-2">
+                <span>Name</span>
+                <h2 className="text-black text-2xl py-2 font-bold">DEVPN</h2>
+              </div>
+              <div className="ticker   px-3 py-2 ">
+                <span>Ticker</span>
+                <h2 className="text-black text-2xl py-2 font-bold">$DEVPN</h2>
+              </div>
+              <div className="supply px-3 py-2 ">
+                <span>Supply</span>
+                <h2 className="text-black text-2xl py-2 font-bold">100,000,000</h2>
+              </div>
+              <div className="tax px-3 py-2">
+                <span>Tax</span>
+                <h2 className="text-black text-2xl py-2 font-bold">5/5</h2>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="div my-auto">
           <div className="relative md:flex lg:flex lg:justify-center md:justify-center align-middle bg-transparent">

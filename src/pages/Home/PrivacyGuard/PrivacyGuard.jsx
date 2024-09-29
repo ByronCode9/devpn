@@ -9,7 +9,7 @@ import video from "../../../assets/Defense.mp4"
 const PrivacyGuard = () => {
   return (
     <div className="div">
-      <div className="lg:w-full relative z-10 lg:space-x-16 lg:grid lg:grid-cols-3 md:grid md:grid-cols-3">
+      <div className="lg:w-full relative z-10 lg:grid lg:grid-cols-3 md:grid md:grid-cols-3">
         <div className="mt-8 col-span-2 flex flex-col lg:flex lg:flex-col md:flex z-10 text-center lg:text-left space-y-8 lg:space-y-10 w-4/5">
           <h2 className="text-3xl z-10 md:w-[60%] lg:w-full md:text-3xl lg:text-5xl md:leading-snug tracking-tighter font-black lg:leading-snug text-center text-[#181818]">
             DeVPN Privacy Guard

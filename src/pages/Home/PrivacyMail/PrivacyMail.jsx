@@ -4,8 +4,8 @@ import { IoCheckmarkCircleSharp } from "react-icons/io5";
 const PrivacyMail = () => {
     return (
       <div className="div mt-20">
-          <div className="lg:w-full relative z-10 lg:space-x-16 lg:grid lg:grid-cols-3 md:grid md:grid-cols-3">
-            <div className="relative col-span-1 md:flex lg:flex justify-left  bg-transparent space-y-4 lg:space-y-2 py-8">
+        <div className="lg:w-full relative z-10 lg:grid lg:grid-cols-3 md:grid md:grid-cols-3 justify-items-end">
+            <div className="relative col-span-1 md:flex lg:flex mx-auto bg-transparent space-y-4 lg:space-y-2 py-8">
               <div className="my-auto"
               dangerouslySetInnerHTML={{
                 __html: `<video autoPlay="autoplay" playsInLine="true" height="250" width="250" loop="true" muted="true">
@@ -16,8 +16,8 @@ const PrivacyMail = () => {
               />
             </div>
 
-            <div className="mt-8 col-span-2 flex flex-col items-center lg:flex lg:flex-col md:flex lg:items-start z-10 lg:text-left space-y-8 lg:space-y-10 w-4/5">
-              <h2 className="text-center text-3xl z-10 md:w-[60%] lg:w-full md:text-3xl lg:text-5xl md:leading-snug tracking-tighter font-black lg:leading-snug text-[#181818]">
+            <div className="mt-8 col-span-2 flex flex-col z-10 text-center lg:text-left space-y-8 lg:space-y-10 w-4/5">
+              <h2 className="text-center text-3xl z-10  md:text-3xl lg:text-5xl md:leading-snug tracking-tighter font-black lg:leading-snug text-[#181818]">
                 DeVPN Privacy Mail
               </h2>
               <p className="text-[#797E86]">

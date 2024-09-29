@@ -49,7 +49,7 @@ const Home = () => {
 
       {/* 12 */}
       <CompetitiveEdge />
-      <Investors />
+      {/* <Investors /> */}
 
       {/* 13 */}
       {/* <CTA />
