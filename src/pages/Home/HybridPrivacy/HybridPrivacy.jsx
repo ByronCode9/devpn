@@ -16,7 +16,7 @@ const OneHome = () => {
               technologies to set unbeatable higher industry standards.
             </p>
           </div>
-          <div id="economics" className="relative mx-auto z-10 py-5">
+          <div id="economics" className="relative mx-auto z-10 py-5q ">
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto text-center mt-10 w-3/4">
               <div className="name px-3 py-2">
                 <span>Name</span>

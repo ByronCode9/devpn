@@ -18,21 +18,9 @@ const GlobalServer = () => {
     />
         Your browser does not support the video tag.
   </video>
-      {/* Main content */}
-      <div className="relative z-10 py-0">
-        <h1 className="text-center text-4xl text-[#181818] pb-10">Start browsing safely today!</h1>
-        {/* Image (iphoneIcon) */}
-        <div className="hidden md:block relative justify-center size-1/2 w-full">
-          <img
-            className="size-2/5 mx-auto"
-            src={iphoneIcon}
-            alt="iPhone Icon"
-          />
-        </div>
-      </div>
-
       {/* Server features grid */}
-      <div className="w-full  flex flex-col items-center justify-center mt-10  sm:-mt-28 md:-mt-28 lg:-mt-32 z-20">
+      <div className="w-full  flex flex-col items-center justify-center z-20">
+        
         <div className=" sm:flex sm:justify-center md:flex md:justify-center lg:flex lg:justify-center space-y-5 sm:space-y-0 md:space-y-0 sm:gap-5 md:gap-8 lg:gap-10 rounded-lg  lg:mb-2 border border-[#ffffff35] bg-[#1a1a1a] py-3 px-20 ">
           <div className="text-center">
             <h1 className="text-lg md:text-2xl lg:text-4xl font-bold text-white">

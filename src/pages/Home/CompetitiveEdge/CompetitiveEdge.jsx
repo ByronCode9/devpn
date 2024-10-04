@@ -2,10 +2,24 @@ import { Fade } from "react-awesome-reveal";
 import icon1 from "../../../assets/Data Protection-01.svg";
 import icon3 from "../../../assets/Data Protection-03.svg";
 import icon8 from "../../../assets/Data Protection-10.svg";
+import bottomBg from "../../../assets/bg.mp4"
 
 const CompetitiveEdge = () => {
   return (
-    <div className="relative w-full">
+    <div className="relative w-full pb-20">
+      <video
+        autoPlay
+        loop
+        muted="true"
+        playsInline
+        class="absolute z-10 opacity-10"
+      >
+        <source
+          src={bottomBg}
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
       <div className="flex flex-col justify-between w-full z-50">
         <h1 className="text-3xl z-10 md:w-[60%] lg:w-full md:text-3xl lg:text-5xl md:leading-snug tracking-tighter font-black lg:leading-snug text-center text-[#181818]">DeVPN Competitive Edge</h1>
       </div>

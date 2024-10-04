@@ -61,7 +61,7 @@ const Header = () => {
         <div className="hidden lg:flex lg:items-center text-md font-normal lg:space-x-8 px-10 z-10  hover:text-[#cececece]">
           <HashLink to="#aboutus" className="text-[#181818] transition ease-in-out  hover:text-[#cececece]">About</HashLink>
           <HashLink to="#features" className="text-[#181818] transition ease-in-out  hover:text-[#cececece]">Features</HashLink>
-          <HashLink to="#economics" className="text-[#181818] transition ease-in-out  hover:text-[#cececece]">Economics</HashLink>
+          <HashLink to="#tokenomics" className="text-[#181818] transition ease-in-out  hover:text-[#cececece]">Tokenomics</HashLink>
           <HashLink to="https://devpn.gitbook.io" target="_blank" className="text-[#181818] transition ease-in-out  hover:text-[#cececece]">Documentation</HashLink>
         </div>
         </Fade>
@@ -85,7 +85,7 @@ const Header = () => {
               <ul className="flex flex-col gap-5 mt-5 lg:flex-row lg:items-center lg:space-x-8">
                 <li><HashLink to="#aboutus" className="text-[#FFF] transition ease-in-out  hover:text-[#cececece]">About</HashLink></li>
                 <li><HashLink to="#features" className="text-[#FFF] transition ease-in-out  hover:text-[#cececece]">Features</HashLink></li>
-                <li><HashLink to="#economics" className="text-[#FFF] transition ease-in-out  hover:text-[#cececece]">Economics</HashLink></li>
+                <li><HashLink to="#tokenomics" className="text-[#FFF] transition ease-in-out  hover:text-[#cececece]">Tokenomics</HashLink></li>
                 <li><HashLink to="www" className="text-[#FFF] transition ease-in-out  hover:text-[#cececece]">Documentation</HashLink></li>
               </ul>
             </div>

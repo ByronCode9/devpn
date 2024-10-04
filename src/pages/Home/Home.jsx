@@ -55,7 +55,7 @@ const Home = () => {
       {/* <CTA />
       <Connect /> */}
       {/* Component: GlobalServer */}
-      <GlobalServer />
+      {/* <GlobalServer /> */}
     </div>
   );
 };

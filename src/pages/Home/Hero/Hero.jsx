@@ -18,19 +18,19 @@ const Hero = () => {
         <ul className="text-[#181818] ml-3 py-10">
           <li className="p-1 flex">
             <p className="text-2xl mr-4"><RxCross2 /></p>
-            Hackers are constantly&nbsp;<span className="text-red-600 font-semibold">breaching</span>&nbsp;corporate security.
+            Hackers are constantly breaching corporate security.
           </li>
           <li className="p-1 flex">
             <p className="text-2xl mr-4"><RxCross2 /></p>
-            Marketing companies are&nbsp;<span className="text-red-600 font-semibold"> exploiting</span>&nbsp;your online behavior.
+            Marketing companies are exploiting your online behavior.
           </li>
           <li className="p-1 flex">
             <p className="text-2xl mr-4"><RxCross2 /></p>
-            Internet service and solution providers are&nbsp;<span className="text-red-600 font-semibold">selling</span>&nbsp;your data.
+            Internet service and solution providers are selling your data.
           </li>
           <li className="p-1 flex">
             <p className="text-2xl mr-4"><RxCross2 /></p>
-            Governments monitor consumers through digital&nbsp;<span className="text-red-600 font-semibold">surveillance</span>.
+            Governments monitor consumers through digital surveillance.
           </li>
         </ul>
         <h2 className="text-[#181818] text-md md:text-xl lg:text-3xl md:leading-snug lg:leading-snug">
