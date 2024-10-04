@@ -49,10 +49,10 @@ const Footer = () => {
         </aside>
         <nav className="justify-self-center md:justify-self-end">
           <div className="flex items-center  z-20 gap-6 text-[#797E86] ">
-            <Link><img src={telegramIcon} className='footer-icon' alt="telegram"/></Link>
-            <Link><img src={footerIcon2} className='footer-icon' alt="dextools"/></Link>
-            <Link><img src={footerIcon3} className='footer-icon' alt="uniswap"/></Link>
-            <Link><img src={footerIcon4} className='footer-icon' alt="twitter"/></Link>
+            <HashLink to="https://t.me/DEVPNofficial" target='_blank'><img src={telegramIcon} className='footer-icon' alt="telegram"/></HashLink>
+            <HashLink><img src={footerIcon2} className='footer-icon' alt="dextools"/></HashLink>
+            <HashLink><img src={footerIcon3} className='footer-icon' alt="uniswap"/></HashLink>
+            <HashLink><img src={footerIcon4} className='footer-icon' alt="twitter"/></HashLink>
           </div>
         </nav>
       </footer>
