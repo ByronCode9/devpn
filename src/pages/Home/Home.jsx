@@ -13,7 +13,7 @@ import PrivacyMail from "./PrivacyMail/PrivacyMail";
 
 const Home = () => {
   return (
-    <div className="container mx-auto px-8 mt-8 overflow-hidden"> {/* Parent container */}      
+    <div className="container mx-auto px-8 py-10"> {/* Parent container */}      
 
       <Hero />
 

@@ -11,11 +11,16 @@ const Main = () => {
   return (
     
     <div className="w-full bg-[#fff] relative overflow-hidden">
-      <div className="absolute top-0 right-0 bottom-0 -z-5 h-screen w-screen">
-      </div>
       <div className="absolute -z-5 top-1/2 lg:top-[2%] left-0 lg:left-0 transform -translate-y-1/2 rotate-180 rounded-l-full overflow-hidden opacity-25 ">
         <img
           className="w-full  h-auto lg:h-full mb-[200px]"
+          src={leftSideBg}
+          alt=""
+        />
+      </div>
+      <div className="absolute -z-5 top-1/2 lg:top-[-10%] right-0 transform  rotate-0 rounded-l-full overflow-hidden opacity-25">
+        <img
+          className="w-full h-full"
           src={leftSideBg}
           alt=""
         />

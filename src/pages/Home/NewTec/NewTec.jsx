@@ -8,10 +8,13 @@ const HybridVpn = () => {
       {/* <Fade> */}
       <div className="container mx-auto px-4 lg:px-8 py-10">
         <div className="flex flex-col items-center gap-2">
-          <h1 className="text-3xl z-10 w-full md:text-4xl lg:text-5xl md:leading-snug tracking-tighter font-black lg:leading-snug text-center text-[#181818]">
+          <Fade direction="down">
+          <h1 className="text-4xl z-10 w-full md:text-4xl lg:text-5xl md:leading-snug tracking-tighter font-black lg:leading-snug text-center text-[#181818]">
           Introducing New Technology
           </h1>
+          </Fade>
           <div className="grid z-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5 lg:gap-5 mt-10">
+            <Fade direction="left">
             <div className="border-black/5 shadow bg-[#fff] rounded-xl p-5 border">
               <div className="flex z-10 justify-center items-center mt-5">
                 <video src={chip} loop
@@ -34,7 +37,8 @@ const HybridVpn = () => {
                 </p>
               </div>
             </div>
-
+            </Fade>
+            <Fade direction="right">
             <div className="border-black/5 shadow bg-[#fff] rounded-xl p-5 border">
               <div className="flex z-10 justify-center items-center mt-5">
                 <video src={network} loop
@@ -56,6 +60,7 @@ const HybridVpn = () => {
                 </p>
               </div>
             </div>
+            </Fade>
           </div>
         </div>
       </div>

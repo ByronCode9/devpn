@@ -5,13 +5,16 @@ import icon8 from "../../../assets/Data Protection-10.svg";
 
 const MyVPN = () => {
   return (
-  <div className="relative w-full py-20">
+  <div className="relative w-full py-20" id="features">
     
-     <div className="flex flex-col justify-between w-full z-50">
+    <div className="flex flex-col justify-between w-full z-50">
+      <Fade direction="down">
       {/* <h1 id="myvpn" className=" text-[46px] sm:text-[60px] md:text-[80px] lg:text-[100px] text-center md:text-right md:mt-5 pb-10 md:pb-3 text-black opacity-25">Section 3</h1> */}
-      <h1 className="text-3xl z-10 md:w-[60%] lg:w-full md:text-3xl lg:text-5xl md:leading-snug tracking-tighter font-black lg:leading-snug text-center text-[#181818]">DeVPN Consumer Assurance</h1>
- </div>
+      <h1 className=" text-4xl z-10 w-full md:text-5xl md:leading-snug tracking-tighter font-black lg:leading-snug text-center text-[#181818]">DeVPN Consumer Assurance</h1>
+      </Fade>
+    </div>
       <div className="grid lg:grid-cols-3 lg:grid-rows-1 gap-4 grid-cols-1 grid-rows-auto mt-20">
+        <Fade>
         <div className="flex flex-col border-black/5 lg:w-auto p-4 items-center z-50">
           <img
             className="w-[70px] h-[70px]"
@@ -23,7 +26,8 @@ const MyVPN = () => {
           World’s only privacy-first ecosystem that transparently delivers consumer safety others claim but never deliver.
           </p>
         </div>
-
+        </Fade>
+        <Fade>
         <div className="flex flex-col border-black/5 lg:w-auto p-4 items-center z-50">
           <img
             className="w-[70px] h-[70px]"
@@ -35,7 +39,8 @@ const MyVPN = () => {
           AI-powered blazing-fast speeds driving performance on premium hardware and exclusive dedicated networks.
           </p>
         </div>
-
+      </Fade>
+        <Fade>
         <div className="flex flex-col border-black/5 lg:w-auto p-4 items-center z-50">
           <img
             className="w-[70px] h-[70px]"
@@ -47,6 +52,7 @@ const MyVPN = () => {
           Real, unrestricted access to the internet - enjoy anything, anytime, anywhere in the world without limitations.
           </p>
         </div>
+        </Fade>
       </div>
   </div>
   );

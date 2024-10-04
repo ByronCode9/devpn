@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaArrowRight } from "react-icons/fa6";
 import { HashLink } from 'react-router-hash-link';
-import logo from "../../../assets/logodevpn.svg";
+import logo from "../../../assets/Union.png";
 import { Fade } from "react-awesome-reveal";
 
 const Header = () => {
@@ -13,20 +13,21 @@ const Header = () => {
   };
 
   return (
-    <div className="">
+    <div className="py-10">
       {/* Header container */}
-      <div className="container mx-auto py-5 flex w-full px-5 justify-between items-center">
+      <div className="container mx-auto  flex w-full px-5 items-center">
         {/* Logo and mobile menu button */}
-        <div className="flex justify-between w-full items-center">
-                    {/* Logo */}
-        <Fade direction="left">
-          <HashLink to="#" className="z-10">
-            <img src={logo} alt="Logo" className="z-10 h-12 lg:h-14" />
-          </HashLink>
-        </Fade>
+        <div className="flex w-full items-center justify-between">
+          <Fade direction="left">
+            <div className="logo z-10 px-3 mt-3">
+              <HashLink to="#">
+                <img src={logo} alt="Logo" className="z-10 image-rendering-smooth h-3/5 w-3/5 md:h-2/3 md:w-2/3 " />
+              </HashLink>
+            </div>
+          </Fade>
           {/* Mobile menu button */}
           <button
-            className="block lg:hidden text-black focus:outline-none z-10"
+            className="block lg:hidden mt-1 text-black focus:outline-none z-10"
             onClick={toggleMenu}
           >
             {/* Toggle menu icon */}
@@ -57,7 +58,7 @@ const Header = () => {
         </div>
 
         {/* Desktop Navigation */}
-        <Fade direction="down">
+        <Fade direction="right">
         <div className="hidden lg:flex lg:items-center text-md font-normal lg:space-x-8 px-10 z-10  hover:text-[#cececece]">
           <HashLink to="#aboutus" className="text-[#181818] transition ease-in-out  hover:text-[#cececece]">About</HashLink>
           <HashLink to="#features" className="text-[#181818] transition ease-in-out  hover:text-[#cececece]">Features</HashLink>
