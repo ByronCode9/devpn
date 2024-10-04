@@ -52,7 +52,7 @@ const Footer = () => {
             <HashLink to="https://t.me/DEVPNofficial" target='_blank'><img src={telegramIcon} className='footer-icon' alt="telegram"/></HashLink>
             <HashLink><img src={footerIcon2} className='footer-icon' alt="dextools"/></HashLink>
             <HashLink><img src={footerIcon3} className='footer-icon' alt="uniswap"/></HashLink>
-            <HashLink><img src={footerIcon4} className='footer-icon' alt="twitter"/></HashLink>
+            <HashLink to="https://x.com/DEVPNofficial" target='_blank'><img src={footerIcon4} className='footer-icon' alt="twitter"/></HashLink>
           </div>
         </nav>
       </footer>
