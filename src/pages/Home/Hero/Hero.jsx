@@ -20,26 +20,22 @@ const Hero = () => {
         The global privacy ecosystem you CAN trust!
         </h2>
         </Fade>
-        <Fade direction="left">
-        <ul className="text-[#181818] md:ml-3 ml-0 py-10 text-sm md:text-lg">
-          <li className="p-1 flex">
-            <p className="text-sm md:text-xl mr-0 md:mr-4"><RxCross2 /></p>
-            Hackers are constantly breaching corporate security.
-          </li>
-          <li className="p-1 flex">
-              <p className="text-sm md:text-xl mr-0 md:mr-4"><RxCross2 /></p>
-            Marketing companies are exploiting your online behavior.
-          </li>
-          <li className="p-1 flex">
-              <p className="text-sm md:text-xl mr-0 md:mr-4"><RxCross2 /></p>
-            Internet service and solution providers are selling your data.
-          </li>
-          <li className="p-1 flex">
-              <p className="text-sm md:text-xl mr-0 md:mr-4"><RxCross2 /></p>
-            Governments monitor consumers through digital surveillance.
-          </li>
-        </ul>
-        </Fade>
+        {/* <Fade direction="left"> */}
+        <ul className="text-[#181818] md:ml-3 ml-0 py-10 text-sm md:text-lg list text-left">
+            <li className="p-1 list-item">
+                Hackers are constantly&nbsp;<strong>breaching</strong>&nbsp;corporate security.
+            </li>
+          <li className="p-1 list-item">
+                Marketing companies are&nbsp;<strong>exploiting</strong>&nbsp;your online behavior.
+            </li>
+          <li className="p-1 list-item">
+                Internet service and solution providers are&nbsp;<strong>selling</strong>&nbsp;your data.
+            </li>
+          <li className="p-1 list-item">
+                Governments monitor consumers through digital&nbsp;<strong>surveillance</strong>.
+            </li>
+          </ul>
+        {/* </Fade> */}
         <Fade direction="left">
           <h2 className="text-[#181818] text-2xl lg:text-3xl md:leading-snug lg:leading-snug pb-5 lg:pb-0">
         Get free <HashLink to="#privacyguard"><span className="text-blue-600 hover:underline font-black">Privacy Guard</span></HashLink> and <HashLink to="#privacymail"><span className="font-black text-blue-600 hover:underline">Privacy Mail</span></HashLink> today!

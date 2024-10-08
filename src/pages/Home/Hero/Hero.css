@@ -3,4 +3,6 @@
     -webkit-background-clip: text;
     color: transparent;
   }
-  
+ul {
+  list-style-type: ">";
+}
