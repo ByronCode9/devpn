@@ -65,9 +65,11 @@ const PrivacyMail = () => {
                 </div>
             </Fade>
               </div>
-            <div className="bg-white hover:bg-gray-100 text-center mx-auto text-gray-800 font-semibold py-2 my-4 px-4 border w-1/3 border-gray-400 rounded shadow">
-              <a href="https://mail.devpn.io" target="_blank">Open App</a>
-            </div>
+            <a href="https://mail.devpn.io" className="w-1/3 mx-auto" target="_blank">
+              <div className="bg-white hover:bg-gray-100 text-center text-gray-800 font-semibold py-2 my-4 px-4 border border-gray-400 rounded shadow">
+                Open App
+              </div>
+            </a>
             </div>
           </div>
         </div>
