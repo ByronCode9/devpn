@@ -54,6 +54,9 @@ const PrivacyGuard = () => {
               <p className="text-[#181818] font-light">Safe monitoring across multiple accounts</p>
             </div>
           </div>
+          <div className="bg-white hover:bg-gray-100 text-center mx-auto text-gray-800 font-semibold py-2 my-4 px-4 border w-1/3 border-gray-400 rounded shadow">
+            <a href="https://guard.devpn.io" target="_blank">Open App</a>
+          </div>
         
         
         </div>
