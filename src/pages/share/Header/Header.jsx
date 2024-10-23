@@ -87,7 +87,7 @@ const Header = () => {
                 <li><HashLink to="#aboutus" className="text-[#FFF] transition ease-in-out  hover:text-[#cececece]">About</HashLink></li>
                 <li><HashLink to="#features" className="text-[#FFF] transition ease-in-out  hover:text-[#cececece]">Features</HashLink></li>
                 <li><HashLink to="#tokenomics" className="text-[#FFF] transition ease-in-out  hover:text-[#cececece]">Tokenomics</HashLink></li>
-                <li><HashLink to="www" className="text-[#FFF] transition ease-in-out  hover:text-[#cececece]">Documentation</HashLink></li>
+                <li><HashLink to="https://devpn.gitbook.io" target="_blank" className="text-[#FFF] transition ease-in-out  hover:text-[#cececece]">Documentation</HashLink></li>
               </ul>
             </div>
           </div>
