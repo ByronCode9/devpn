@@ -10,6 +10,7 @@ import InvestorAssurance from "../InvestorAssurance/InvestorAssurance";
 import Investors from "./Investors/Investors";
 import CompetitiveEdge from "./CompetitiveEdge/CompetitiveEdge";
 import PrivacyMail from "./PrivacyMail/PrivacyMail";
+import VPNRoadmap from "./VPNRoadmap/VPNRoadmap";
 
 const Home = () => {
   return (
@@ -39,7 +40,7 @@ const Home = () => {
       {/* <PrivacyStorage /> */}
 
       {/* Component: VPNRoadmap */}
-      {/* <VPNRoadmap /> */}
+      <VPNRoadmap />
 
       {/* 10 */}
       <HybridPrivacy />

@@ -15,7 +15,7 @@ const HybridVpn = () => {
           </Fade>
           <div className="grid z-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5 lg:gap-5 mt-10">
             <Fade direction="left">
-            <div className="border-black/5 shadow bg-[#fff] rounded-xl p-5 border">
+              <div className="text-gray-800 font-semibold py-5 px-8 border-gray-400  shadow-sm bg-[#fff] rounded-xl p-5 border">
               <div className="flex z-10 justify-center items-center mt-5">
                 <video src={chip} loop
                   muted
@@ -39,7 +39,7 @@ const HybridVpn = () => {
             </div>
             </Fade>
             <Fade direction="right">
-            <div className="border-black/5 shadow bg-[#fff] rounded-xl p-5 border">
+              <div className="text-gray-800 font-semibold py-5 px-8 border-gray-400  shadow-sm bg-[#fff] rounded-xl p-5 border">
               <div className="flex z-10 justify-center items-center mt-5">
                 <video src={network} loop
                   muted

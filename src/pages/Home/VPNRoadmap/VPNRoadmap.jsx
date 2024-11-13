@@ -1,130 +1,134 @@
-import { Fade } from "react-awesome-reveal";
-import dotIcon from "../../../../public/favicon.png";
+import React, { useState } from "react";
+import { Fade } from 'react-awesome-reveal';
 
 const VPNRoadmap = () => {
+  const [selectedCard, setSelectedCard] = useState(1);
+
+  // Card content
+  const cardContents = [
+    {
+      title: "2024 Q2 & Q3",
+      content: [
+        "DEVPN foundation conceptualized",
+        "Establishing the core project team",
+        "VPN, cloud storage, and blockchain market research",
+        "Developing the comprehensive GitBook whitepaper",
+        "Initiation of user hardware development"
+      ]
+    },
+    {
+      title: "2024 Q4",
+      content: [
+        "Public go-live of DEVPN GitBook",
+        "Public go-live of DEVPN Website V1",
+        "$150K USD private DecentraVerse hardware development investment",
+        "Launch seed capital raise",
+        "Initiation of investor KOL/media/marketing partnerships",
+        "Initiation of DEVPN Community and social media campaigns",
+        "Initiation of node prototype hardware development",
+        "Ecosystem software architecture plan",
+        "Public go-live of DEVPN Privacy Mail",
+        "Public go-live of DEVPN Privacy Guard",
+        "Public $DEVPN token launch",
+        "Initiation of Tier 1 Alpha group (DAO prelude)",
+        "Presentation of DEVPN Home and DEVPN Travel hardware",
+        "DEVPN node waiting list pre-sale",
+        "Enterprise partnership outreach"
+      ]
+    },
+    {
+      title: "2025 Q1",
+      content: [
+        "Public go-live of DEVPN Ecosystem Website V2",
+        "dApp Dashboard go-live (revenue sharing, alpha governance, node connection)",
+        "dApp Dashboard go-live (all features)",
+        "Data-center lease contracts",
+        "Initiation of auditing",
+        "Initiation of customer service/support teams",
+        "Public go-live DEVPN VPN nodes",
+        "Ecosystem buildup",
+        "Public go-live DEVPN Cloud Storage",
+        "Initiation of referral and reward campaigns",
+        "DEVPN White-label sales team formation",
+        "Initiation of Cloud Storage pilot case testing",
+        "Initiation of corporate service sales campaign",
+        "Extensive real-world branding and user marketing campaigns",
+        "Non-profit partnership outreach"
+      ]
+    },
+  ];
+
   return (
-    
-    <div id="roadmap" className="my-[150px] relative overflow-hidden">
-      {/* Roadmap Title */}
-      <h1 className="text-[48px] text-center text-[#181818] ">Navigate through Roadmap</h1>
-
-      {/* Roadmap Items */}
-      
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-10 pt-[75px] sm:flex-row sm:justify-center sm:gap-5">
-      <Fade cascade>
-        {/* Roadmap Item 1 */}
-        
-        <div className="grid-col w-full">
-          <p className="text-[11px] font-light text-[#181818] mb-5 sm:mb-10">
-            END OF Q2 2024
-          </p>
-          <div className="rounded-xl border border-black/5 shadow bg-white px-5 py-5">
-            <div className="flex items-center gap-5 mb-5">
-              <img src={dotIcon} className="h-5" alt="" />
-              <h1 className="text-[24px] text-[#181818]">STAGE 1</h1>
-            </div>
-            <h2>Token Listing and Exchange Integration</h2>
-            <p className="text-[13px] text-[#181818]">
-            We'll ensure our token is listed on major exchanges, making it easier for you to access and trade.
-            </p>
-
-            <h2 className="mt-5">Enhanced Platform Security</h2>
-            <p className="text-[13px] text-[#181818]">
-            Your security is our top priority. We're implementing additional measures to fortify our VPN application against potential threats.
-            </p>
-
-            <h2 className="mt-5">User Feedback Integration</h2>
-            <p className="text-[13px] text-[#181818]">
-            Your feedback matters. We'll be gathering insights from you to improve our platform based on your needs.
-            </p>
-
-            <h2 className="mt-5">Marketing and Awareness Campaigns</h2>
-            <p className="text-[13px] text-[#181818]">
-            Stay tuned for exciting campaigns aimed at raising awareness about our decentralized VPN application and its benefits.
-            </p>
-
-            <h2 className="mt-5">Partnership Expansion</h2>
-            <p className="text-[13px] text-[#181818] pb-2">
-            We're expanding our network by collaborating with blockchain projects, VPN providers, and cybersecurity firms to offer you more value.
-            </p>
-          </div>
-        </div>
-
-        <div className="w-full grid-col">
-          <p className="text-[11px] font-light text-[#181818] mb-5 sm:mb-10">
-            END OF Q3 2024
-          </p>
-          <div className="rounded-xl border border-black/5 shadow bg-white px-5 py-5">
-            <div className="flex items-center gap-5 mb-5">
-              <img src={dotIcon} className="h-5" alt="" />
-              <h1 className="text-[24px] text-[#181818]">STAGE 2</h1>
-            </div>
-            <h2>User ability to participate</h2>
-            <p className="text-[13px] text-[#181818]">
-            We are enabling users to share their device accesibility and introduce a reward system for node sharing.
-            </p>
-
-            <h2 className="mt-5">Geographical Expansion</h2>
-            <p className="text-[13px] text-[#181818]">
-            We are expanding our reach to new regions to ensure more users can benefit from our decentralized VPN.
-            </p>
-
-            <h2 className="mt-5">User Acquisition Strategies</h2>
-            <p className="text-[13px] text-[#181818]">
-            Expect targeted strategies aimed at growing our user base and increasing adoption
-            </p>
-
-            <h2 className="mt-5">Token Utility Enhancement</h2>
-            <p className="text-[13px] text-[#181818]">
-            We are adding more utility to our token within the ecosystem, making it more valuable for you.
-            </p>
-
-            <h2 className="mt-5">Continuous Security Audits</h2>
-            <p className="text-[13px] text-[#181818] pb-2">
-            Your security remains our priority. We will be conducting regular audits to keep our platform secure.
-            </p>
-          </div>
-        </div>
-
-        <div className="w-full grid-col">
-          <p className="text-[11px] font-light text-[#181818] mb-5 sm:mb-10">
-            END OF Q4 2024
-          </p>
-          <div className="rounded-xl border border-black/5 shadow bg-white px-5 py-5">
-            <div className="flex items-center gap-5 mb-5">
-              <img src={dotIcon} className="h-5" alt="" />
-              <h1 className="text-[24px] text-[#181818]">STAGE 3</h1>
-            </div>
-            <h2>Scalability Improvements</h2>
-            <p className="text-[13px] text-[#181818]">
-            We are optimizing our infrastructure to accommodate more users and ensure seamless performance.
-            </p>
-
-            <h2 className="mt-5">Advanced Privacy Features</h2>
-            <p className="text-[13px] text-[#181818]">
-            Enjoy enhanced privacy with new features like multi-hop VPN connections and zero-knowledge encryption.
-            </p>
-
-            <h2 className="mt-5">Token Staking and Governance</h2>
-            <p className="text-[13px] text-[#181818]">
-            Get ready to stake your tokens and participate in governance decisions to shape the future of our ecosystem.
-            </p>
-
-            <h2 className="mt-5">Research and Development</h2>
-            <p className="text-[13px] text-[#181818]">
-            We're investing in research and development to bring you the latest innovations in the decentralized VPN space.
-            </p>
-
-            <h2 className="mt-5">Year-End Review and Planning</h2>
-            <p className="text-[13px] text-[#181818] pb-2">
-            As the year comes to a close, we'll review our progress and plan for an even more exciting year ahead.
-            </p>
-          </div>
-        </div>
-        </Fade>
+    <section className="container mx-auto px-4 lg:px-8 pt-10">
+      <Fade direction="down">
+        <h1 className="text-4xl z-10 w-full md:text-4xl lg:text-5xl md:leading-snug tracking-tighter font-black lg:leading-snug text-center text-[#181818] my-10">
+          Ecosystem Roadmap
+        </h1>
+      </Fade>
+      <div className="tagline w-full text-center">
+        <p className="mt-8 mb-2 text-black w-full lg:w-3/5 mx-auto">
+          <Fade direction="up">
+            Explore our key milestones from development to launch, with updates through our Alpha group and DAO formation.
+          </Fade>
+        </p>
       </div>
-      
-    </div>
+      <Fade direction="left">
+      <div className="relative w-full flex justify-center my-10">
+        {/* Arrow Shaft */}
+        <div className="relative w-full flex items-center justify-between">
+          <div className="h-2 rounded bg-blue-500 w-2/3"></div> {/* 3/4 of the arrow in blue */}
+          <div className="h-2 bg-gray-300 w-1/3"></div> {/* 1/4 of the arrow in grey */}
+
+          {/* Arrowhead (Triangle) */}
+          <div className="absolute right-[-15px] top-1/2 transform -translate-y-1/2 w-0 h-0 border-l-[20px] border-r-[20px] border-t-[20px] border-transparent border-t-blue-500 -rotate-90"></div>
+        </div>
+      </div>
+      </Fade>
+      {/* Cards below the arrow */}
+      <div className="flex flex-wrap gap-4 justify-between w-full px-4 py-5">
+        {/* Card 1 */}
+        <div
+          className={`flex flex-col w-full h-auto lg:h-[350px] xl:h-[280px] sm:w-full md:w-full lg:w-[30%] my-5 bg-[#fff] p-4 transition-all transform cursor-pointer text-gray-800 py-5 px-8 border-gray-400  shadow-sm
+            ${selectedCard === 0 ? "scale-105 text-black filter-none bg-blue-50 border-gray-100 border shadow-sm rounded-xl" : " border-gray-100 border shadow-sm rounded-xl scale-100 hover:scale-105 hover:bg-blue-100 bg-blue-50 filter blur-sm"}`}
+          onClick={() => setSelectedCard(0)}
+        >
+          <h3 className="text-xl md:leading-snug tracking-tighter font-black lg:leading-snug text-[#181818] mb-5">{cardContents[0].title}</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            {cardContents[0].content.map((entry, entryIndex) => (
+              <li key={entryIndex} className="text-sm">{entry}</li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Card 2 */}
+        <div
+          className={`flex flex-col w-full sm:w-full md:w-full lg:w-[30%] my-5  bg-[#fff] p-4 transition-all transform cursor-pointer text-gray-800 py-5 px-8 border-gray-400  shadow-sm
+            ${selectedCard === 1 ? "scale-105 text-black filter-none border-gray-100 border shadow-sm rounded-xl" : " border-gray-100 border shadow-sm rounded-xl scale-100 hover:scale-105 filter blur-sm"}`}
+          onClick={() => setSelectedCard(1)}
+        >
+          <h3 className="text-xl md:leading-snug tracking-tighter font-black lg:leading-snug text-[#181818] mb-5">{cardContents[1].title}</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            {cardContents[1].content.map((entry, entryIndex) => (
+              <li key={entryIndex} className="text-sm">{entry}</li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Card 3 */}
+        <div
+          className={`flex flex-col w-full sm:w-full md:w-full lg:w-[30%] my-5  bg-[#fff] p-4 transition-all transform cursor-pointer text-gray-800 py-5 px-8 border-gray-400  shadow-sm
+            ${selectedCard === 2 ? "scale-105 text-black filter-none bg-gray-50 border-gray-100 border shadow-sm rounded-xl" : " border-gray-100 border shadow-sm rounded-xl scale-100 hover:scale-105 hover:bg-gray-100 bg-gray-50 filter blur-sm"}`}
+          onClick={() => setSelectedCard(2)}
+        >
+          <h3 className="text-xl md:leading-snug tracking-tighter font-black lg:leading-snug text-[#181818] mb-5">{cardContents[2].title}</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            {cardContents[2].content.map((entry, entryIndex) => (
+              <li key={entryIndex} className="text-sm">{entry}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </section>
   );
 };
 

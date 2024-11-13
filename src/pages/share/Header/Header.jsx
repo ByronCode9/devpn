@@ -64,10 +64,18 @@ const Header = () => {
           <HashLink to="#features" className="text-[#181818] transition ease-in-out  hover:text-[#cececece]">Features</HashLink>
           <HashLink to="#tokenomics" className="text-[#181818] transition ease-in-out  hover:text-[#cececece]">Tokenomics</HashLink>
           <HashLink to="https://devpn.gitbook.io" target="_blank" className="text-[#181818] transition ease-in-out  hover:text-[#cececece]">Documentation</HashLink>
+          <HashLink to="#" target="_blank" className="text-[#181818] transition ease-in-out  hover:text-[#cececece]">
+              <button data-tooltip-target="tooltip-default" type="button" disabled class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-1 px-6 border border-gray-400 rounded shadow-sm whitespace-nowrap">dApp</button>
+              <div id="tooltip-default" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                Coming soon
+                <div class="tooltip-arrow" data-popper-arrow></div>
+              </div>
+          </HashLink>
+  
         </div>
         </Fade>
         {/* Mobile Navigation Menu */}
-        <div className={`fixed inset-0 text-white z-50 transition-opacity duration-300 ease-in-out overflow-hidden ${menuOpen ? "opacity-90 pointer-events-auto text-center  font-bold text-xl " : "opacity-0 pointer-events-none"}`}>
+        <div className={`fixed inset-0 text-white z-50 transition-opacity duration-300 ease-in-out overflow-hidden ${menuOpen ? "opacity-100 pointer-events-auto text-center  font-bold text-xl " : "opacity-0 pointer-events-none"}`}>
           <div className="absolute top-0 left-0 w-full text-white bg-[#1f1f1f] shadow-lg transform transition-transform duration-300 ease-in-out" style={{ height: '50vh' }}>
             <div className="container mx-auto px-4 lg:px-8 py-5">
               {/* Close menu button */}
@@ -88,6 +96,12 @@ const Header = () => {
                 <li><HashLink to="#features" className="text-[#FFF] transition ease-in-out  hover:text-[#cececece]">Features</HashLink></li>
                 <li><HashLink to="#tokenomics" className="text-[#FFF] transition ease-in-out  hover:text-[#cececece]">Tokenomics</HashLink></li>
                 <li><HashLink to="https://devpn.gitbook.io" target="_blank" className="text-[#FFF] transition ease-in-out  hover:text-[#cececece]">Documentation</HashLink></li>
+                <HashLink to="https://devpn.gitbook.io" target="_blank" className="text-[#FFF] transition ease-in-out  hover:text-[#cececece]">
+                  <button data-tooltip-target="tooltip-default" type="button" disabled class=" text-white bg-black font-semibold py-1 px-6 border border-gray-600 rounded shadow-sm whitespace-nowrap">dApp</button>
+                  <div id="tooltip-default" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                    Coming soon
+                    <div class="tooltip-arrow" data-popper-arrow></div>
+                  </div></HashLink>
               </ul>
             </div>
           </div>

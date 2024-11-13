@@ -25,8 +25,7 @@ const DecentralisedVPN = () => {
         </Fade>
           <div className="grid z-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5 lg:gap-5 mt-10 flex-row">
             <Fade>
-              <div className="lg:grid lg:flex-row md:grid-cols-2 h-full border-black/5 shadow lg:grid-cols-3 bg-[#fff] rounded-xl p-5 border">
-               <div className="text-center h-auto block lg:flex lg:flex-col lg:text-start lg:justify-center md:col-span-1 lg:col-span-2">
+              <div className="lg:grid lg:flex-row md:grid-cols-2 h-full text-gray-800 font-semibold py-5 px-8 border-gray-400  shadow-sm lg:grid-cols-3 bg-[#fff] rounded-xl p-5 border">               <div className="text-center h-auto block lg:flex lg:flex-col lg:text-start lg:justify-center md:col-span-1 lg:col-span-2">
                 <h1 className="text-2xl  lg:text-3xl md:leading-snug tracking-tighter font-black lg:leading-snug text-[#181818] mb-5">
                   DeVPN Privacy Guard
                 </h1>
@@ -47,8 +46,7 @@ const DecentralisedVPN = () => {
             </div>
             </Fade>
             <Fade>
-              <div className="lg:grid lg:flex-row md:grid-cols-2 h-full border-black/5 shadow lg:grid-cols-3 bg-[#fff] rounded-xl p-5 border">
-              <div className="text-center lg:flex lg:flex-col lg:text-start lg:justify-center md:col-span-1 lg:col-span-2">
+              <div className="lg:grid lg:flex-row md:grid-cols-2 h-full text-gray-800 font-semibold py-5 px-8 border-gray-400  shadow-sm lg:grid-cols-3 bg-[#fff] rounded-xl p-5 border">              <div className="text-center lg:flex lg:flex-col lg:text-start lg:justify-center md:col-span-1 lg:col-span-2">
                 <h1 className="text-2xl  lg:text-3xl md:leading-snug tracking-tighter font-black lg:leading-snug text-[#181818] mb-5">
                   DeVPN Privacy Mail
                 </h1>
@@ -69,8 +67,7 @@ const DecentralisedVPN = () => {
             </div>
             </Fade>
             <Fade>
-              <div className="lg:grid lg:flex-row md:grid-cols-2 h-full border-black/5 shadow lg:grid-cols-3 bg-[#fff] rounded-xl p-5 border">
-              <div className="text-center lg:flex lg:flex-col lg:text-start lg:justify-center md:col-span-1 lg:col-span-2">
+              <div className="lg:grid lg:flex-row md:grid-cols-2 h-full text-gray-800 font-semibold py-5 px-8 border-gray-400  shadow-sm lg:grid-cols-3 bg-[#fff] rounded-xl p-5 border">              <div className="text-center lg:flex lg:flex-col lg:text-start lg:justify-center md:col-span-1 lg:col-span-2">
                 <h1 className="text-2xl  lg:text-3xl md:leading-snug tracking-tighter font-black lg:leading-snug text-[#181818] mb-5">
                   DeVPN Hybrid VPN
                 </h1>
@@ -93,8 +90,7 @@ const DecentralisedVPN = () => {
             </div>
             </Fade>
             <Fade>
-              <div className="lg:grid lg:flex-row md:grid-cols-2 h-full border-black/5 shadow lg:grid-cols-3 bg-[#fff] rounded-xl p-5 border">
-              <div className="text-center lg:flex lg:flex-col lg:text-start lg:justify-center md:col-span-1 lg:col-span-2">
+              <div className="lg:grid lg:flex-row md:grid-cols-2 h-full text-gray-800 font-semibold py-5 px-8 border-gray-400  shadow-sm lg:grid-cols-3 bg-[#fff] rounded-xl p-5 border">              <div className="text-center lg:flex lg:flex-col lg:text-start lg:justify-center md:col-span-1 lg:col-span-2">
                 <h1 className="text-2xl  lg:text-3xl md:leading-snug tracking-tighter font-black lg:leading-snug text-[#181818] mb-5">
                   DeVPN Privacy Storage
                 </h1>
@@ -115,7 +111,7 @@ const DecentralisedVPN = () => {
             </div>
             </Fade>
             <Fade>
-              <div className="lg:grid lg:flex-row md:grid-cols-2 h-full border-black/5 shadow lg:grid-cols-3 bg-[#fff] rounded-xl p-5 border">
+              <div className="lg:grid lg:flex-row md:grid-cols-2 h-full text-gray-800 font-semibold py-5 px-8 border-gray-400  shadow-sm lg:grid-cols-3 bg-[#fff] rounded-xl p-5 border">
               <div className="text-center lg:flex lg:flex-col lg:text-start lg:justify-center md:col-span-1 lg:col-span-2">
                 <h1 className="text-2xl  lg:text-3xl md:leading-snug tracking-tighter font-black lg:leading-snug text-[#181818] mb-5">
                 DeVPN One Home
@@ -137,7 +133,7 @@ const DecentralisedVPN = () => {
             </div>
             </Fade>
             <Fade>
-              <div className="lg:grid lg:flex-row md:grid-cols-2 h-full border-black/5 shadow lg:grid-cols-3 bg-[#fff] rounded-xl p-5 border">
+              <div className="lg:grid lg:flex-row md:grid-cols-2 h-full text-gray-800 font-semibold py-2 px-8 border-gray-400  shadow-sm lg:grid-cols-3 bg-[#fff] rounded-xl p-5 border">
               <div className="text-center lg:flex lg:flex-col lg:text-start lg:justify-center md:col-span-1 lg:col-span-2">
                 <h1 className="text-2xl  lg:text-3xl md:leading-snug tracking-tighter font-black lg:leading-snug text-[#181818] mb-5">
                   DeVPN One Travel
