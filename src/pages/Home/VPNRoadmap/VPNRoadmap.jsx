@@ -21,7 +21,6 @@ const VPNRoadmap = () => {
       content: [
         "Public go-live of DEVPN GitBook",
         "Public go-live of DEVPN Website V1",
-        "$150K USD private DecentraVerse hardware development investment",
         "Launch seed capital raise",
         "Initiation of investor KOL/media/marketing partnerships",
         "Initiation of DEVPN Community and social media campaigns",
