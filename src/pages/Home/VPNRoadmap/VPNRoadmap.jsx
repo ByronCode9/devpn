@@ -91,7 +91,7 @@ const VPNRoadmap = () => {
       <div className="flex flex-wrap gap-4 justify-between w-full px-4 py-5">
         {/* Card 1 */}
         <div
-          className={`flex flex-col w-full h-auto lg:h-[350px] xl:h-[280px] sm:w-full md:w-full lg:w-[30%] my-5 bg-[#fff] p-4 transition-all transform cursor-pointer text-gray-800 py-5 px-8 border-gray-400  shadow-sm
+          className={`flex flex-col w-full h-full sm:w-full md:w-full lg:w-[30%] my-5 bg-[#fff] p-4 transition-all transform cursor-pointer text-gray-800 py-5 px-8 border-gray-400  shadow-sm
             ${selectedCard === 0 ? "scale-105 text-black filter-none bg-blue-50 border-gray-100 border shadow-sm rounded-xl" : " border-gray-100 border shadow-sm rounded-xl scale-100 hover:scale-105 hover:bg-blue-100 bg-blue-50 filter blur-sm"}`}
           onClick={() => setSelectedCard(0)}
         >
@@ -105,7 +105,7 @@ const VPNRoadmap = () => {
 
         {/* Card 2 */}
         <div
-          className={`flex flex-col w-full sm:w-full md:w-full lg:w-[30%] my-5  bg-[#fff] p-4 transition-all transform cursor-pointer text-gray-800 py-5 px-8 border-gray-400  shadow-sm
+          className={`flex flex-col w-full h-full sm:w-full md:w-full lg:w-[30%] my-5  bg-[#fff] p-4 transition-all transform cursor-pointer text-gray-800 py-5 px-8 border-gray-400  shadow-sm
             ${selectedCard === 1 ? "scale-105 text-black filter-none border-gray-100 border shadow-sm rounded-xl" : " border-gray-100 border shadow-sm rounded-xl scale-100 hover:scale-105 filter blur-sm"}`}
           onClick={() => setSelectedCard(1)}
         >
@@ -119,7 +119,7 @@ const VPNRoadmap = () => {
 
         {/* Card 3 */}
         <div
-          className={`flex flex-col w-full sm:w-full md:w-full lg:w-[30%] my-5  bg-[#fff] p-4 transition-all transform cursor-pointer text-gray-800 py-5 px-8 border-gray-400  shadow-sm
+          className={`flex flex-col w-full h-full sm:w-full md:w-full lg:w-[30%] my-5  bg-[#fff] p-4 transition-all transform cursor-pointer text-gray-800 py-5 px-8 border-gray-400  shadow-sm
             ${selectedCard === 2 ? "scale-105 text-black filter-none bg-gray-50 border-gray-100 border shadow-sm rounded-xl" : " border-gray-100 border shadow-sm rounded-xl scale-100 hover:scale-105 hover:bg-gray-100 bg-gray-50 filter blur-sm"}`}
           onClick={() => setSelectedCard(2)}
         >
